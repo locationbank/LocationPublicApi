@@ -21,6 +21,8 @@ Http Verb: GET.
 
 Headers: Content-Type: application/json
 
+         Ocp-Apim-Subscription-Key : (Format - string. Passed into header for Authorization)
+
 Http EndPoint: /locations
 
 <strong>QueryString Parameters:</strong>
