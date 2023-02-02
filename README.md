@@ -5,7 +5,7 @@ Sections
 
 2.Create Location
 
-3.List of list all location
+3.List of all location
 
 4.Single Location
 
