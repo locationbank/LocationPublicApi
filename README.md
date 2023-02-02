@@ -26,5 +26,7 @@ Http EndPoint: /locations
 QueryString Parameters:
 
 ```{questions}
-- What should be included as a bare minimum in README files?
+- AccountID: (Format - uuid. The unique identifier for the Account)
+- AccountID: (Format - uuid. The unique identifier for the Account)
+
 ```
