@@ -246,36 +246,63 @@ AccountID:
           description: The unique identifier for the Account
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-        LocationID:
+LocationID:
           type: string
           description: The unique identifier for the Location (auto-generated)
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-        LocationNumber:
+LocationNumber:
           type: string
           description: A friendly number used internally to reference the specified Location (for support purposes)
-        ReferenceCode:
+ReferenceCode:
           type: string
-          description: An identifier for the Location specified by the user of the API
-        CreatedBy:
+          description: An identifier for the Location specified by the user of the APCreatedBy:
           type: string
-          description: String indicating who or what created the Location
-        ModifiedBy:
+          description: String indicating who or what created the Locati
+ModifiedBy:
           type: string
           description: String indicating who or what last modified the Location
-        Created:
+Created:
           type: string
           description: 'Time, location was created'
           format: date-time
-        Modified:
+ Modified:
           type: string
           description: Time location was modified
           format: date-time
-- LocationID: (Format - uuid. The unique identifier for the Location (auto-generated)
-- LocationNumber: Format - string. A friendly number used internally to reference the specified Location (for support purposes)
-- ReferenceCode: 'Format - string. An identifier for the Location specified by the user of the API'
-- LongBusinessName: 'Format - string. A long Business Name for the Location (max length 80 chars)'
-- PrimaryPhoneNumber: 'Format - string. The Primary Phone Number for the Location (see documentation for input format) (Infogroup does not allow toll-free numbers; Location data can only be submitted to Infogroup when the PrimaryPhoneNumber is a local number)'
+KeyFields:
+          type: object
+          additionalProperties:
+            type: string
+          description: Dynamic storage of the key fields for the location or custom data which is used by specific applications
+DisplayPoint:
+      type: object
+      properties:
+        Type:
+          enum:
+            - Calculated
+            - ManuallyPlaced
+          type: string
+          description: 'The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually, "Calculated": the typical method)'
+        Latitude:
+          type: number
+          description: '[TO BE REMOVED] Latitude of the Location represented by a high precision decimal number'
+          format: double
+        Longitude:
+          type: number
+          description: '[TO BE REMOVED] Longitude of the Location represented by a high precision decimal number'
+          format: double
+        VerificationType:
+          enum:
+            - Client
+            - Manually
+            - DAC_PinIt
+            - DAC_Google
+            - Other
+          type: string
+          description: Display point verification type
+      description: '[TO BE REMOVED] Structured object containing the geocode of the Location in Latitude and Longitude as a decimal and supplementary information describing the quality of the geocode'
+
 - BusinessStatus:
           enum:
             - Open
