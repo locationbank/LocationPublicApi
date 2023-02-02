@@ -27,13 +27,6 @@ Http EndPoint: /locations
 
 ```{questions}
 - AccountID: (Format - uuid. The unique identifier for the Account)
-- CreatedDateFrom: Format - date-time (as date-time in RFC3339). Optional filter: Start DateTime to apply filter by date range on the field ''Created''. Expected format is yyyy-MM-dd HH:mm:ss
-- CreatedDateTo: 'Format - date-time (as date-time in RFC3339). Optional filter: End DateTime to apply filter by date range on the field ''Created''. Expected format is yyyy-MM-dd HH:mm:ss'
-- ModifiedDateFrom: 'Format - date-time (as date-time in RFC3339). Optional filter: Start DateTime to apply filter by date range on the field ''Modified''. Expected format is yyyy-MM-dd HH:mm:ss'
-- ModifiedDateTo: 'Format - date-time (as date-time in RFC3339). Optional filter: End DateTime to apply filter by date range on the field ''Modified''. Expected format is yyyy-MM-dd HH:mm:ss'
-- PageSize: 'Format - int32. The number of Locations listed on each page of returned data (max value: )'
-- ContinuationToken: 'Format - string. Continue your request and get the next page of results by passing in the token from the previous result.'
-- statuses : 'Format - string. 'Default is null - returns active locations. Ex: "active,closed"; "0,1"''
 - Bearer : 'Format -string. 'Passed into header for Authorization''
 ```
 
@@ -41,7 +34,7 @@ Http EndPoint: /locations
 <strong>Response Json Body</strong>
 
 ```{questions}
-{
+[{
   "AccountID": "00000000-0000-0000-0000-000000000000",
   "LocationID": "00000000-0000-0000-0000-000000000000",
   "LocationNumber": "string",
@@ -233,5 +226,5 @@ Http EndPoint: /locations
     "AlternateOrCorporateName": "string"
   },
   "UserData": {}
-}
+}]
 ```
