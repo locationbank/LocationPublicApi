@@ -1299,20 +1299,49 @@ PhoneNumbers:
           type: string
           description: An Alternate Website for the Location; potentially a corporate website for the location (no max length)
         MediaURLs:
-          $ref: '#/components/schemas/MediaURLsObject'
-        HoursOfOperation:
+                   MediaURLsObject:
+                              MediaURLsObject:
+                                 type: object
+                                 properties:
+                                   FacebookURL:
+                                     type: string
+                                     description: The Facebook URL for the Location (must be a valid URL)
+                                   TwitterURL:
+                                     type: string
+                                     description: The Twitter URL for the Location (must be a valid URL)
+                                   LinkedInURL:
+                                     type: string
+                                     description: The LinkedIn URL for the Location (must be a valid URL)
+                                   InstagramURL:
+                                     type: string
+                                     description: The Instagram URL for the Location (must be a valid URL)
+                                   PinterestURL:
+                                     type: string
+                                     description: The Pinterest URL for the Location (must be a valid URL)
+                                   CouponURL:
+                                     type: string
+                                     description: The Coupon URL for the Location (must be a valid URL)
+                                   SocialNetworkURL:
+                                     type: string
+                                     description: The Social Network URL for the Location (must be a valid URL)
+                                   VideoURL:
+                                     type: string
+                                     description: The Video URL for the Location (must be a valid URL)
+                                 description: The list of Social Media URLs for the Location                 
+          
+ HoursOfOperation:
           type: string
           description: String representation of Hours of Operation structured object for the Location
-          readOnly: true      
+          readOnly: true
           
- HoursOfOperationStructured:
-            HoursOfOperationObject:
-         type: object
-         properties:
-         SpecialHours:
-          type: array
-          items:
-           HoursOfOperationItemEx:
+  HoursOfOperationStructured:
+                           HoursOfOperationObject:
+                                 type: object
+                                 properties:
+                                   SpecialHours:
+                                     type: array
+                                     items:
+                                      HoursOfOperationItemEx:
       required:
         - Date
       type: object
@@ -1323,249 +1352,406 @@ PhoneNumbers:
         Ranges:
           type: array
           items:
-            TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of Operations information for a single day.
-          description: Identify hours of operation on special dates
-        Su:
-          HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
+                                               TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                                      description: A list of time periods
+                          State:
+                            enum:
+                              - Open
+                              - Closed
+                              - Open24Hrs
+                              - OpenByAppointment
+                            type: string
+                            description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                          AdditionalInfo:
+                            type: string
+                            description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                        description: Hours of Operations information for a single day.
+                                     description: Identify hours of operation on special dates
+                                   Su:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   Mo:
+                                      HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   Tu:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   We:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   Th:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   Fr:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                   Sa:
+                                     HoursOfOperationItem:
+                                          type: object
+                                          properties:
+                                            Ranges:
+                                              type: array
+                                              items:
+                                                 TimeRange:
+                                                   type: object
+                                                   properties:
+                                                     StartTime:
+                                                       type: string
+                                                       description: Start time
+                                                     EndTime:
+                                                       type: string
+                                                       description: End time
+                                                   description: 'Time period, less than 24 hours'
+                                              description: A list of time periods
+                                            State:
+                                              enum:
+                                                - Open
+                                                - Closed
+                                                - Open24Hrs
+                                                - OpenByAppointment
+                                              type: string
+                                              description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                            AdditionalInfo:
+                                              type: string
+                                              description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                          description: Hours of operation
+                                 description: Keeps regular and special hours of operation
+
+ SpecialHours:
           type: array
           items:
-            TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        Mo:
-          HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-            $TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        Tu:
-          HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-           TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        We:
-         HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-            TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        Th:
-         HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-            TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        Fr:
-          $HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-           TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-        Sa:
-          HoursOfOperationItem:
-      type: object
-      properties:
-        Ranges:
-          type: array
-          items:
-            TimeRange:
-      type: object
-      properties:
-        StartTime:
-          type: string
-          description: Start time
-        EndTime:
-          type: string
-          description: End time
-      description: 'Time period, less than 24 hours'
-          description: A list of time periods
-        State:
-          enum:
-            - Open
-            - Closed
-            - Open24Hrs
-            - OpenByAppointment
-          type: string
-          description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
-        AdditionalInfo:
-          type: string
-          description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-      description: Hours of operation
-      description: Keeps regular and special hours of operation
-         
+            HoursOfOperationItemEx:
+                                 required:
+                                   - Date
+                                 type: object
+                                 properties:
+                                   Date:
+                                     type: string
+                                     description: Optional. Set the specific date
+                                   Ranges:
+                                     type: array
+                                     items:
+                                       $ref: '#/components/schemas/TimeRange'
+                                     description: A list of time periods
+                                   State:
+                                     enum:
+                                       - Open
+                                       - Closed
+                                       - Open24Hrs
+                                       - OpenByAppointment
+                                     type: string
+                                     description: " Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3]"
+                                   AdditionalInfo:
+                                     type: string
+                                     description: 'Any additional comments - open by appointment, short hours during holidays etc.'
+                                 description: Hours of Operations information for a single day.
+          description: Identify hours of operation on special dates       
           
+BusinessCategories :
+                  BusinessCategoriesObject:
+                                 type: object
+                                 properties:
+                                   Category1:
+                                     type: string
+                                     description: Business Category 1 (see documentation for list of valid Categories)
+                                   Category2:
+                                     type: string
+                                     description: Business Category 2 (see documentation for list of valid Categories)
+                                   Category3:
+                                     type: string
+                                     description: Business Category 3 (see documentation for list of valid Categories)
+                                   Category4:
+                                     type: string
+                                     description: Business Category 4 (see documentation for list of valid Categories)
+                                   Category5:
+                                     type: string
+                                     description: Business Category 5 (see documentation for list of valid Categories)
+                                   Category6:
+                                     type: string
+                                     description: Business Category 6 (see documentation for list of valid Categories)
+                                   Category7:
+                                     type: string
+                                     description: Business Category 7 (see documentation for list of valid Categories)
+                                   Category8:
+                                     type: string
+                                     description: Business Category 8 (see documentation for list of valid Categories)
+                                   Category9:
+                                     type: string
+                                     description: Business Category 9 (see documentation for list of valid Categories)
+                                   Category10:
+                                     type: string
+                                     description: Business Category 10 (see documentation for list of valid Categories)
+                                 description: The list of Business Categories for the Location (see documentation for list of valid Categories)
+Chain:
+          type: string
+          description: The name of the franchise or chain the Location belongs to
+Amenities:
+          type: string
+          description: 'A comma separated list of Amenities available at the Location (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access)'
+PaymentMethods:
+          type: string
+          description: A comma separated list of Payment Methods for the Location (see documentation for list of valid Payment Methods and input format)
+ PrimaryContact:
+          ContactPersonObject:
+                        type: object
+                        properties:
+                          FullName:
+                            type: string
+                            description: The full name of the Contact Person
+                          FirstName:
+                            type: string
+                            description: The First Name of the Contact Person (max length 15 chars)
+                          MiddleName:
+                            type: string
+                            description: The Middle Name of the Contact Person
+                          LastName:
+                            type: string
+                            description: The Last Name of the Contact Person (max length 20 chars)
+                          Title:
+                            type: string
+                            description: 'Title (e.g. Regional Sales Manager, Customer Support Technician, etc.) (max length 256 chars)'
+                          EmailAddress:
+                            type: string
+                            description: Contact Email address (must be a valid email address)
+                        description: Structured object containing contact information for a Contact Person 
           
-          
-          
-          
-          
-          
+  EmailAddress:
+          type: string
+          description: Contact Email address (must be a valid email address)
+      description: Structured object containing contact information for a Contact Person
+
+PhotoURLs :
+                  PhotoObject:
+                        required:
+                          - URL
+                        type: object
+                        properties:
+                          Type:
+                            enum:
+                              - ProfilePhoto
+                              - CoverPhoto
+                              - Logo
+                              - Other
+                            type: string
+                            description: 'Type of photo ("ProfilePhoto": often displayed as a series, "CoverPhoto": usually only 1, "Logo": usually only 1, "Other")'
+                          URL:
+                            type: string
+                            description: The URL for the Photo (must be a valid URL)
+                          Name:
+                            type: string
+                            description: The name of the Photo
+                          Description:
+                            type: string
+                            description: A description of the Photo
+                        description: Structured object containing a Photo URL and supplementary information about the Photo
+ KeywordsSpecialties:
+          type: string
+          description: A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location
+  CredentialsCertifications:
+          type: string
+          description: A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)
+  Products:
+          type: string
+          description: A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location
+        Services:
+          type: string
+          description: A comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location
+ Brands:
+          type: string
+          description: A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location
+   YearFounded:
+          type: string
+          description: The year the Location was founded (must be four digits; e.g. 1992)
+   ProfessionalAssociations:
+          type: string
+          description: A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location
+ Tagline:
+          type: string
+          description: A Tagline or slogan for the Location.
+  NumberEmployees:
+          type: string
+          description: The number of employees at the Location (max length 5 chars)
+ AreasServed:
+          type: string
+          description: 'A comma separated list of Areas served by the Location (e.g. Downtown, Uptown, etc.)'
+Languages:
+          type: string
+          description: A comma separated list of Languages spoken at the Location (see documentation for list of valid Languages and input format)
+AlternateOrCorporateName:
+          type: string
+          description: ''
+      description: Location Data Model
           
           
           
