@@ -34,7 +34,7 @@ Http EndPoint: /locations
 - PageSize: 'Format - int32. The number of Locations listed on each page of returned data (max value: )'
 - ContinuationToken: 'Format - string. Continue your request and get the next page of results by passing in the token from the previous result.'
 - statuses : 'Format - string. 'Default is null - returns active locations. Ex: "active,closed"; "0,1"''
-
+- Bearer : 'Format -string. 'Passed into header for Authorization''
 ```
 
 
