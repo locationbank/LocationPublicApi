@@ -25,4 +25,6 @@ Http EndPoint: /locations
 
 QueryString Parameters:
 
-
+```{questions}
+- What should be included as a bare minimum in README files?
+```
