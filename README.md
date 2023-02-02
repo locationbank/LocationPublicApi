@@ -27,7 +27,6 @@ Http EndPoint: /locations
 
 ```{questions}
 - AccountID: (Format - uuid. The unique identifier for the Account)
-- Bearer : 'Format -string. 'Passed into header for Authorization''
 ```
 
 
