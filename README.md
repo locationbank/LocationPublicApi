@@ -17,6 +17,8 @@ All endpoints described in this document with the exception of Reporting have th
 
 <h1>2.List of all location</h1>
 
-Http Verb: GET
+Http Verb: GET.
+
 Headers: Content-Type: application/json
+
 Http EndPoint: /locations
