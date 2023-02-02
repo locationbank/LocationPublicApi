@@ -10,3 +10,5 @@ Sections
 4.Single Location
 
 5.Update location
+
+1.Base API Url
