@@ -237,7 +237,7 @@ Http EndPoint: /locations
 }]
 ```
 
-<strong>Response Desciption:</strong>
+<strong>Response Description:</strong>
 
 
 ```{questions}
