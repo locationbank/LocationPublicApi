@@ -788,23 +788,23 @@ PhoneNumbers:
           readOnly: true
           
   HoursOfOperationStructured:
-                           HoursOfOperationObject:
-                                 type: object
-                                 properties:
-                                   SpecialHours:
-                                     type: array
-                                     items:
-                                      HoursOfOperationItemEx:
-      required:
-        - Date
-      type: object
-      properties:
-        Date:
-          type: string
-          description: Optional. Set the specific date
-        Ranges:
-          type: array
-          items:
+     HoursOfOperationObject:
+            type: object
+               properties:
+                     SpecialHours:
+                       type: array
+                      items:
+                      HoursOfOperationItemEx:
+                             required:
+                                 - Date
+                                       type: object
+                                          properties:
+                                            Date:
+                                              type: string
+                                              description: Optional. Set the specific date
+                                            Ranges:
+                                              type: array
+                                              items:
                                                TimeRange:
                                                    type: object
                                                    properties:
@@ -828,7 +828,7 @@ PhoneNumbers:
                             type: string
                             description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                         description: Hours of Operations information for a single day.
-                                     description: Identify hours of operation on special dates
+                                     description: Identify hours of operation on special dates   
                                    Su:
                                      HoursOfOperationItem:
                                           type: object
@@ -836,16 +836,16 @@ PhoneNumbers:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -860,22 +860,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    Mo:
-                                      HoursOfOperationItem:
+                                        HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -890,22 +890,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    Tu:
-                                     HoursOfOperationItem:
+                                         HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -920,22 +920,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    We:
-                                     HoursOfOperationItem:
+                                      HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -950,22 +950,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    Th:
-                                     HoursOfOperationItem:
+                                       HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -980,22 +980,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    Fr:
-                                     HoursOfOperationItem:
+                                       HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -1010,22 +1010,22 @@ PhoneNumbers:
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                           description: Hours of operation
                                    Sa:
-                                     HoursOfOperationItem:
+                                       HoursOfOperationItem:
                                           type: object
                                           properties:
                                             Ranges:
                                               type: array
                                               items:
-                                                 TimeRange:
-                                                   type: object
-                                                   properties:
-                                                     StartTime:
-                                                       type: string
-                                                       description: Start time
-                                                     EndTime:
-                                                       type: string
-                                                       description: End time
-                                                   description: 'Time period, less than 24 hours'
+                                              TimeRange:
+                                                 type: object
+                                                  properties:
+                                                    StartTime:
+                                                      type: string
+                                                      description: Start time
+                                                    EndTime:
+                                                      type: string
+                                                      description: End time
+                                                 description: 'Time period, less than 24 hours'
                                               description: A list of time periods
                                             State:
                                               enum:
@@ -1038,24 +1038,32 @@ PhoneNumbers:
                                             AdditionalInfo:
                                               type: string
                                               description: 'Any additional comments - open by appointment, short hours during holidays etc.'
-                                          description: Hours of operation
-                                 description: Keeps regular and special hours of operation
+                                          description: Hours of operation                  
 
  SpecialHours:
           type: array
           items:
             HoursOfOperationItemEx:
-                                 required:
-                                   - Date
-                                 type: object
-                                 properties:
-                                   Date:
-                                     type: string
-                                     description: Optional. Set the specific date
-                                   Ranges:
-                                     type: array
-                                     items:
-                                       $ref: '#/components/schemas/TimeRange'
+                      required:
+                          - Date
+                      type: object
+                      properties:
+                       Date:
+                          type: string
+                          description: Optional. Set the specific date
+                              Ranges:
+                                 type: array
+                                 items:
+                                       TimeRange:
+                                          type: object
+                                          properties:
+                                            StartTime:
+                                              type: string
+                                              description: Start time
+                                            EndTime:
+                                              type: string
+                                              description: End time
+                                          description: 'Time period, less than 24 hours'
                                      description: A list of time periods
                                    State:
                                      enum:
@@ -1069,9 +1077,9 @@ PhoneNumbers:
                                      type: string
                                      description: 'Any additional comments - open by appointment, short hours during holidays etc.'
                                  description: Hours of Operations information for a single day.
-          description: Identify hours of operation on special dates       
+          description: Identify hours of operation on special dates                            
           
-BusinessCategories :
+ BusinessCategories :
                   BusinessCategoriesObject:
                                  type: object
                                  properties:
