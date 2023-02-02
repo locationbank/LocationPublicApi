@@ -3454,7 +3454,7 @@ UserData:
 ```
 <h1>5.Update Location</h1>
 
-Http Verb: Put.
+Http Verb: PUT
 
 Headers: Content-Type: application/json
 
