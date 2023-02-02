@@ -301,9 +301,9 @@ DisplayPoint:
             - Other
           type: string
           description: Display point verification type
-      description: '[TO BE REMOVED] Structured object containing the geocode of the Location in Latitude and Longitude as a decimal and supplementary information describing the quality of the geocode'
+      description: '[TO BE REMOVED] Structured object containing the geocode of the Location in Latitude and Longitude as a decimal and supplementary information             describing the quality of the geocode'
 
-- BusinessStatus:
+BusinessStatus:
           enum:
             - Open
             - Closed
@@ -311,7 +311,7 @@ DisplayPoint:
             - Duplicate
           type: string
           description: 'The Status of the Location (Open, Closed, TemporarilyClosed)'
-- Status:
+Status:
           enum:
             - Active
             - VerificationPending
