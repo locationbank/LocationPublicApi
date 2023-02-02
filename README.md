@@ -36,3 +36,6 @@ QueryString Parameters:
 - statuses : 'Format - string. 'Default is null - returns active locations. Ex: "active,closed"; "0,1"''
 
 ```
+
+
+<strong>Response Json Body</strong>
