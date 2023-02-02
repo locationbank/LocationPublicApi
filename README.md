@@ -11,4 +11,6 @@ Sections
 
 5.Update location
 
-1.Base API Url
+<p>1.Base API Url</p>
+
+All endpoints described in this document with the exception of Reporting have the following base API url: https://api.places.digital/locations-api-write/
