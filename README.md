@@ -241,10 +241,55 @@ Http EndPoint: /locations
 
 
 ```{questions}
+AccountID:
+          type: string
+          description: The unique identifier for the Account
+          format: uuid
+          example: 00000000-0000-0000-0000-000000000000
+        LocationID:
+          type: string
+          description: The unique identifier for the Location (auto-generated)
+          format: uuid
+          example: 00000000-0000-0000-0000-000000000000
+        LocationNumber:
+          type: string
+          description: A friendly number used internally to reference the specified Location (for support purposes)
+        ReferenceCode:
+          type: string
+          description: An identifier for the Location specified by the user of the API
+        CreatedBy:
+          type: string
+          description: String indicating who or what created the Location
+        ModifiedBy:
+          type: string
+          description: String indicating who or what last modified the Location
+        Created:
+          type: string
+          description: 'Time, location was created'
+          format: date-time
+        Modified:
+          type: string
+          description: Time location was modified
+          format: date-time
 - LocationID: (Format - uuid. The unique identifier for the Location (auto-generated)
 - LocationNumber: Format - string. A friendly number used internally to reference the specified Location (for support purposes)
 - ReferenceCode: 'Format - string. An identifier for the Location specified by the user of the API'
 - LongBusinessName: 'Format - string. A long Business Name for the Location (max length 80 chars)'
 - PrimaryPhoneNumber: 'Format - string. The Primary Phone Number for the Location (see documentation for input format) (Infogroup does not allow toll-free numbers; Location data can only be submitted to Infogroup when the PrimaryPhoneNumber is a local number)'
-
+- BusinessStatus:
+          enum:
+            - Open
+            - Closed
+            - TemporarilyClosed
+            - Duplicate
+          type: string
+          description: 'The Status of the Location (Open, Closed, TemporarilyClosed)'
+- Status:
+          enum:
+            - Active
+            - VerificationPending
+            - Deleted
+            - InActive
+          type: string
+          description: Record status
 ```
