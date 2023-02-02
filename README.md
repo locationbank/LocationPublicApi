@@ -39,3 +39,12 @@ Http EndPoint: /locations
 
 
 <strong>Response Json Body</strong>
+
+```{questions}
+- LocationID: (Format - uuid. The unique identifier for the Location (auto-generated)
+- LocationNumber: Format - string. A friendly number used internally to reference the specified Location (for support purposes)
+- ReferenceCode: 'Format - string. An identifier for the Location specified by the user of the API'
+- LongBusinessName: 'Format - string. A long Business Name for the Location (max length 80 chars)'
+- PrimaryPhoneNumber: 'Format - string. The Primary Phone Number for the Location (see documentation for input format) (Infogroup does not allow toll-free numbers; Location data can only be submitted to Infogroup when the PrimaryPhoneNumber is a local number)'
+
+```
