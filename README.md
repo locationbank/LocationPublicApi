@@ -1752,7 +1752,12 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-          
+UserData:
+          type: object
+          additionalProperties:
+            type: string
+          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
+      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
           
           
           
