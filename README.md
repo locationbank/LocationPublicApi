@@ -23,7 +23,7 @@ Headers: Content-Type: application/json
 
 Http EndPoint: /locations
 
-QueryString Parameters:
+<strong>QueryString Parameters:</strong>
 
 ```{questions}
 - AccountID: (Format - uuid. The unique identifier for the Account)
