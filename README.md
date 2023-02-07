@@ -24,14 +24,29 @@ All endpoints described in this document with the exception of Reporting have th
 
 ---
 
+<h1>2.List of All Locations</h1>
 
 <details> 
-  <summary><strong><h1>2.List of All Locations</h1>
+  <summary><strong><h1>GET / (List of All Locations)</h1>
 </strong>
 </summary>
   
-  
-Http Verb: GET.
+  ##### Parameters
+
+> | name      |  type     | data type               | description                                                           |
+> |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | None      |  required | object (JSON or YAML)   | N/A  |
+
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
+                           |
+
+
+
 
 Headers: Content-Type: application/json
 
@@ -44,7 +59,6 @@ Http EndPoint: /locations
 ```{questions}
 - AccountID: (**Required**  Format - uuid. The unique identifier for the Account)
 ```
-[Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
   
   
 [Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
