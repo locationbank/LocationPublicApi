@@ -3672,9 +3672,9 @@ Headers: Content-Type: application/json
 
 Http EndPoint: /location
 
-<details>
-  <summary><strong>FromBody  Parameters:</strong>
-</summary>
+
+ <strong>FromBody  Parameters:</strong>
+
          
 ```{questions}
 {
@@ -3857,7 +3857,7 @@ Http EndPoint: /location
     }
         
 ```
-    </details>
+
      
   
 
