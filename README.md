@@ -41,7 +41,7 @@ Http EndPoint: /locations
 ```{questions}
 - AccountID: (**Required**  Format - uuid. The unique identifier for the Account)
 ```
-       [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)
+[Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#5update-location)
 [5.Update location](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#5update-location)
 
 <details> 
