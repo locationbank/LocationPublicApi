@@ -31,12 +31,11 @@ Http EndPoint: /locations
 
 ```{questions}
 - AccountID: (Format - uuid. The unique identifier for the Account)
-
 ```
 
 
 <strong>Response Json Body</strong>
----
+
 ```{questions}
 [    
        
