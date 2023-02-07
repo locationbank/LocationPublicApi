@@ -27,7 +27,6 @@ All endpoints described in this document with the exception of Reporting have th
 </strong>
 </summary>
   
-<a href="http://stackoverflow.com" target="_blank">Go</a>
   
 Http Verb: GET.
 
@@ -47,7 +46,7 @@ Http EndPoint: /locations
 <details> 
   <summary><strong>Response Json Body</strong>
 </summary>
-       
+       [Response Json Body](/blob/main/ResponseJsonBody.md)
 ```{questions}
 [
     {
