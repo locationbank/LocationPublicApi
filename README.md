@@ -401,8 +401,10 @@ Http EndPoint: /locations
 ```
 
 ---
-<strong>Response Description:</strong>
 
+<details> 
+    <summary><strong>Response Description:</strong>
+  </summary>
 
 ```{questions}
 AccountID:
