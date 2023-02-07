@@ -27,15 +27,23 @@ All endpoints described in this document with the exception of Reporting have th
 <h1>2.List of All Locations</h1>
 
 <details> 
-  <summary><strong><h2>GET / (List of All Locations)</h2>
+  <summary><strong><h2>GET / (Http EndPoint: /locations)</h2>
 </strong>
 </summary>
   
-  ##### Parameters
+  ##### Headers Parameters
 
-> | name      |  type     | data type               | description                                                           |
-> |-----------|-----------|-------------------------|-----------------------------------------------------------------------|
-> | None      |  required | object (JSON or YAML)   | N/A  |
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | Ocp-Apim-Subscription-Key        |  required  | string                  | Passed into **header** for Authorization                                 |
+> | Content-Type                      |  required  | application/json                                      |
+
+    ##### QueryString Parameters
+
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | AccountID                         |  required  | uuid                  | The unique identifier for the Account                             |
+
 
 
 ##### Responses
@@ -44,22 +52,7 @@ All endpoints described in this document with the exception of Reporting have th
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
                            |
-
-
-
-
-Headers: Content-Type: application/json
-
-         Ocp-Apim-Subscription-Key : (Format - string. Passed into header for Authorization)
-
-Http EndPoint: /locations
-
-<strong>QueryString Parameters:</strong>
-
-```{questions}
-- AccountID: (**Required**  Format - uuid. The unique identifier for the Account)
-```
-  
+ 
   
 [Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
 
