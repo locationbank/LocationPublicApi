@@ -1,7 +1,7 @@
 # LocationPublicApi
 Sections
 
-__[pica](https://nodeca.github.io/pica/demo/)__ 
+[pica](https://nodeca.github.io/pica/demo/)
 [1.Base API Url]([https://nodeca.github.io/pica/demo/](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#1base-api-url)
 
 
