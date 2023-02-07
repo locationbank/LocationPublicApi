@@ -19,6 +19,8 @@ Sections
 
 All endpoints described in this document with the exception of Reporting have the following base API url: https://api.places.digital/locations-api-write/
 
+---
+
 <h1>2.List of All Locations</h1>
 
 Http Verb: GET.
@@ -404,7 +406,7 @@ Http EndPoint: /locations
 
 </details> 
 
----
+
 
 <details> 
     <summary><strong>Response Description:</strong>
@@ -1234,7 +1236,7 @@ UserData:
 
 </details> 
 
-
+---
 
 <h1>3.Create Locations</h1>
 
@@ -1623,7 +1625,7 @@ Http EndPoint: /location
 
 </details> 
 
----
+
 
 <details> 
     <summary><strong>Response Description:</strong>
@@ -2453,6 +2455,7 @@ UserData:
 
 </details> 
  
+---
 
 <h1>4.Get Single Location</h1>
 
@@ -2843,7 +2846,7 @@ Http EndPoint: /location
 
 </details> 
 
----
+
 
 <details> 
     <summary><strong>Response Description:</strong>
@@ -3674,6 +3677,7 @@ UserData:
 </details> 
 
 ---
+
 <h1>5.Update Location</h1>
 
 Http Verb: PUT
@@ -3875,7 +3879,6 @@ Http EndPoint: /location
 
 </details> 
 
----
 
 <details> 
     <summary><strong>Request Body Description:</strong>
@@ -4705,7 +4708,7 @@ UserData:
 
 </details> 
 
----
+
 
 <details> 
   <summary><strong>Response Json Body</strong>
@@ -4898,7 +4901,7 @@ UserData:
 </details> 
 
 
----
+
 
 <details> 
   <summary><strong>Response Description</strong>
