@@ -1250,8 +1250,9 @@ Http EndPoint: /location
 ```
 
 
-<strong>Response Json Body</strong>
-
+<details> 
+    <summary><strong>Response Json Body</strong>
+  </summary>
 ```{questions}
      
     {
@@ -1433,9 +1434,12 @@ Http EndPoint: /location
         "userData": null
     }
 ```
+         </details> 
 
-<strong>Response Description:</strong>
 
+<details> 
+    <summary><strong>Response Description:</strong>
+  </summary>
 
 ```{questions}
 AccountID:
@@ -2250,9 +2254,16 @@ UserData:
             type: string
           description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
       description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-            
+          
+          
+          
+          
+          
+          
           
 ```
+</details> 
+
 <h1>4.Get Single Location</h1>
 
 Http Verb: GET.
@@ -2637,8 +2648,9 @@ Http EndPoint: /locationByid
 ]
 ```
 
-<strong>Response Description:</strong>
-
+<details> 
+    <summary><strong>Response Description:</strong>
+  </summary>
 
 ```{questions}
 AccountID:
@@ -3454,8 +3466,15 @@ UserData:
           description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
       description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
           
-        
+          
+          
+          
+          
+          
+          
 ```
+</details> 
+
 <h1>5.Update Location</h1>
 
 Http Verb: PUT
@@ -3648,8 +3667,9 @@ Http EndPoint: /location
         "userData": null
     }
 ```
-<strong>Request Description:</strong>
-
+<details> 
+    <summary><strong>Response Description:</strong>
+  </summary>
 
 ```{questions}
 AccountID:
@@ -4465,8 +4485,14 @@ UserData:
           description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
       description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
           
-        
+          
+          
+          
+          
+          
+          
 ```
+</details> 
 
 <strong>Response Json Body</strong>
 
