@@ -3864,7 +3864,7 @@ Http EndPoint: /location
 ---
  ---
 <details> 
-    <summary><strong>Response Description:</strong>
+    <summary><strong>Request Body Description:</strong>
   </summary>
 
 ```{questions}
@@ -4882,7 +4882,7 @@ UserData:
 
 ---
 <details> 
-  <summary><strong>Response Json Body</strong>
+  <summary><strong>Response Description</strong>
 </summary>
 
 
