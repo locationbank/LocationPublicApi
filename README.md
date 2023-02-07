@@ -219,8 +219,7 @@ Http EndPoint: /locations
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     },
     {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -397,8 +396,7 @@ Http EndPoint: /locations
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     },
     {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -575,8 +573,7 @@ Http EndPoint: /locations
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     },
     {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -760,8 +757,7 @@ Http EndPoint: /locations
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }
 ]
 ```
@@ -1581,13 +1577,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+     
           
           
           
@@ -1792,8 +1782,7 @@ Http EndPoint: /location
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }    
 
 ```
@@ -2612,13 +2601,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+  
           
           
           
@@ -2813,8 +2796,7 @@ UserData:
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }
 
 ```
@@ -3636,13 +3618,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+   
           
           
           
@@ -3857,8 +3833,7 @@ Http EndPoint: /location
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     },
     {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -4035,8 +4010,7 @@ Http EndPoint: /location
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }
 
 ```
@@ -4856,13 +4830,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+     
           
           
           
@@ -5068,8 +5036,7 @@ Http EndPoint: /location
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }    
 
 ```
@@ -5888,13 +5855,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+     
           
           
           
@@ -6089,8 +6050,7 @@ UserData:
             "areasServed": null,
             "languages": "en",
             "alternateOrCorporateName": null
-        },
-        "userData": null
+        }
     }
 
 ```
@@ -6912,13 +6872,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+        
           
           
           
