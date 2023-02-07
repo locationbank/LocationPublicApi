@@ -14,10 +14,13 @@ Sections
 [5.Update location](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#5update-location)
 
 
-
-<h1>1.Base API Url</h1>
+<details> 
+  <summary><strong><h1>1.Base API Url</h1>
+</strong>
+</summary>
 
 All endpoints described in this document with the exception of Reporting have the following base API url: https://api.places.digital/locations-api-write/
+</details> 
 
 ---
 
@@ -50,6 +53,7 @@ Http EndPoint: /locations
 
 
 </details> 
+
 ---
 
 <h1>3.Create Locations</h1>
