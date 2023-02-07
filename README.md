@@ -55,7 +55,7 @@ Http EndPoint: /locations
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "test",
+                "ReferenceCode": "test",
                 "chainName": null,
                 "primarylanguage": "en-"
             },
@@ -233,7 +233,7 @@ Http EndPoint: /locations
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "SC103",
+                "ReferenceCode": "SC103",
                 "chainName": "Brand Name - Location number 5",
                 "primarylanguage": "en-ZA"
             },
@@ -1274,7 +1274,7 @@ Http EndPoint: /location
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "test",
+                "ReferenceCode": "test",
                 "chainName": null,
                 "primarylanguage": "en-"
             },
@@ -1452,7 +1452,7 @@ Http EndPoint: /location
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "SC103",
+                "ReferenceCode": "SC103",
                 "chainName": "Brand Name - Location number 5",
                 "primarylanguage": "en-ZA"
             },
@@ -2494,7 +2494,7 @@ Http EndPoint: /location
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "test",
+                "ReferenceCode": "test",
                 "chainName": null,
                 "primarylanguage": "en-"
             },
@@ -2672,7 +2672,7 @@ Http EndPoint: /location
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "SC103",
+                "ReferenceCode": "SC103",
                 "chainName": "Brand Name - Location number 5",
                 "primarylanguage": "en-ZA"
             },
@@ -3704,7 +3704,7 @@ Http EndPoint: /location
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "test",
+                "ReferenceCode": "test",
                 "chainName": null,
                 "primarylanguage": "en-"
             },
@@ -4726,7 +4726,7 @@ UserData:
         "locationBankPublicLocationData": {
             "keyFields": {
                 "pinMarker": "true",
-                "referenceCode2": "test",
+                "ReferenceCode": "test",
                 "chainName": null,
                 "primarylanguage": "en-"
             },
