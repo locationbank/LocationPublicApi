@@ -399,7 +399,9 @@ Http EndPoint: /locations
     }
 ]
 ```
+
 </details> 
+
 ---
 
 <details> 
@@ -1227,6 +1229,7 @@ UserData:
           
           
 ```
+
 </details> 
 
 
@@ -1615,7 +1618,9 @@ Http EndPoint: /location
     }
 
 ```
+
 </details> 
+
 ---
 
 <details> 
@@ -2443,6 +2448,7 @@ UserData:
           
           
 ```
+
 </details> 
  
 
@@ -2831,7 +2837,9 @@ Http EndPoint: /locationByid
     }
 
 ```
+
 </details> 
+
 ---
 
 <details> 
@@ -3861,6 +3869,7 @@ Http EndPoint: /location
     }    
 
 ```
+
 </details> 
 
 ---
@@ -4690,6 +4699,7 @@ UserData:
           
           
 ```
+
 </details> 
 
 ---
@@ -4881,6 +4891,7 @@ UserData:
     }
 
 ```
+
 </details> 
 
 
