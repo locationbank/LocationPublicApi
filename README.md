@@ -775,12 +775,12 @@ Http EndPoint: /locations
   </summary>
 
 ```{questions}
-AccountID:
+**AccountID**:
           type: string
           description: The unique identifier for the Account
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-LocationID:
+**LocationID**:
           type: string
           description: The unique identifier for the Location (auto-generated)
           format: uuid
