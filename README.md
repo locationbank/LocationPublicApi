@@ -3,13 +3,15 @@ Sections
 
 [1.Base API Url](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#1base-api-url)
 
-2.List of All Locations
+[2.List of All Locations](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#2list-of-all-locations)
 
-3.Create location
+[3.Create location](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#3create-locations)
 
-4.Get Single Location
+[4.Get Single Location](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#4get-single-location)
 
-5.Update location
+[5.Update location](https://github.com/locationbank/LocationPublicApi/blob/main/README.md#5update-location)
+
+
 
 <h1>1.Base API Url</h1>
 
