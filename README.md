@@ -771,22 +771,23 @@ Http EndPoint: /locations
   </summary>
 
 ```{questions}
-<h3>AccountID <h3>:
+AccountID :
           type: string
           description: The unique identifier for the Account
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-**LocationID**:
+LocationID:
           type: string
           description: The unique identifier for the Location (auto-generated)
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-**LocationNumber** :
+LocationNumber:
           type: string
           description: A friendly number used internally to reference the specified Location (for support purposes)
 ReferenceCode:
           type: string
-          description: An identifier for the Location specified by the user of the APCreatedBy:
+          description: An identifier for the Location specified by the user of the API
+CreatedBy:
           type: string
           description: String indicating who or what created the Locati
 ModifiedBy:
