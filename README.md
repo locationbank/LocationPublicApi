@@ -21,7 +21,11 @@ All endpoints described in this document with the exception of Reporting have th
 
 ---
 
-<h1>2.List of All Locations</h1>
+
+<details> 
+  <summary><strong><h1>2.List of All Locations</h1>
+</strong>
+</summary>
 
 Http Verb: GET.
 
@@ -1588,7 +1592,7 @@ AlternateOrCorporateName:
 ```
 
 </details> 
-
+</details> 
 ---
 
 <h1>3.Create Locations</h1>
