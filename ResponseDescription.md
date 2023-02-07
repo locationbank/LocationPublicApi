@@ -1,6 +1,5 @@
-
 ```{questions}
-AccountID:
+AccountID :
           type: string
           description: The unique identifier for the Account
           format: uuid
@@ -15,7 +14,8 @@ LocationNumber:
           description: A friendly number used internally to reference the specified Location (for support purposes)
 ReferenceCode:
           type: string
-          description: An identifier for the Location specified by the user of the APCreatedBy:
+          description: An identifier for the Location specified by the user of the API
+CreatedBy:
           type: string
           description: String indicating who or what created the Locati
 ModifiedBy:
@@ -806,13 +806,7 @@ AlternateOrCorporateName:
           type: string
           description: ''
       description: Location Data Model
-UserData:
-          type: object
-          additionalProperties:
-            type: string
-          description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
-      description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
-          
+     
           
           
           
