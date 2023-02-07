@@ -3671,8 +3671,9 @@ Headers: Content-Type: application/json
 
 Http EndPoint: /location
 
-<strong>FromBody  Parameters:</strong>
-
+<details> 
+  <summary><strong>FromBody  Parameters:</strong>
+</summary>
 ```{questions}
 {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -3853,6 +3854,8 @@ Http EndPoint: /location
         "userData": null
     }
 ```
+         </details> 
+---
 <details> 
     <summary><strong>Response Description:</strong>
   </summary>
@@ -4679,7 +4682,7 @@ UserData:
           
 ```
 </details> 
-
+---
 <details> 
   <summary><strong>Response Json Body</strong>
 </summary>
