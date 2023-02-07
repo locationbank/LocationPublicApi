@@ -1433,8 +1433,10 @@ Http EndPoint: /location
         },
         "userData": null
     }
+         
+     </details>        
 ```
-         </details> 
+      
 
 
 <details> 
@@ -2259,10 +2261,10 @@ UserData:
           
           
           
-          
+  </details>        
           
 ```
-</details> 
+ 
 
 <h1>4.Get Single Location</h1>
 
