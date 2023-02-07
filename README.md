@@ -3661,6 +3661,7 @@ UserData:
 ```
 </details> 
 
+---
 <h1>5.Update Location</h1>
 
 Http Verb: PUT
@@ -3671,7 +3672,7 @@ Headers: Content-Type: application/json
 
 Http EndPoint: /location
 
-<details> 
+<details>
   <summary><strong>FromBody  Parameters:</strong>
 </summary>
          
@@ -3855,6 +3856,7 @@ Http EndPoint: /location
         "userData": null
     }
 ```
+         </details>
    ---
 <details> 
     <summary><strong>Response Description:</strong>
