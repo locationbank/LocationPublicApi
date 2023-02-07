@@ -34,7 +34,7 @@ Http EndPoint: /locations
 <strong>QueryString Parameters:</strong>
 
 ```{questions}
-- AccountID: (Format - uuid. The unique identifier for the Account)
+- AccountID: (**Required**  Format - uuid. The unique identifier for the Account)
 ```
 
 
@@ -3668,7 +3668,7 @@ Http EndPoint: /location
 
 ```{questions}
 - LocationID: (Format - uuid. The unique identifier for the LocationID)
-- AccountID : (Required Format - uuid. The unique identifier for the AccountID)
+- AccountID : (**Required** Format - uuid. The unique identifier for the AccountID)
 - LocationNumber: (LocationNumber - string. A friendly number used internally to reference the specified Location (for support purposes))
 - ReferenceCode: (Format - uuid. An identifier for the Location specified by the user of the API)
 
