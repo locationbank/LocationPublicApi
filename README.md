@@ -37,15 +37,18 @@ Http EndPoint: /locations
 <details> 
   <summary><strong>Response Json Body</strong>
 </summary>
-#include "ResponseJsonBody.md"
-   
-
          
-           ![Tux, the Linux mascot](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)
          
-                    ![Tux, the Linux mascot](/blob/main/ResponseJsonBody.md)
+         .. include:: ResponseJsonBody.md
+   :literal:
+         
+          .. include:: /blob/main/ResponseJsonBody.md
+   :literal: 
+         
+          .. include:: https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md
+   :literal: 
 
-`` `
+
 ---
 <strong>Response Description:</strong>
 
