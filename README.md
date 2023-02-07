@@ -26,7 +26,9 @@ All endpoints described in this document with the exception of Reporting have th
   <summary><strong><h1>2.List of All Locations</h1>
 </strong>
 </summary>
-
+  
+[Opens in new tab](https://external.ink?to=/placeholder.com)
+  
 Http Verb: GET.
 
 Headers: Content-Type: application/json
@@ -775,7 +777,7 @@ Http EndPoint: /locations
   </summary>
 
 ```{questions}
-###### AccountID :
+AccountID :
           type: string
           description: The unique identifier for the Account
           format: uuid
