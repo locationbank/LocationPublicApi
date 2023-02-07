@@ -2460,12 +2460,13 @@ Headers: Content-Type: application/json
 
          Ocp-Apim-Subscription-Key : (Format - string. Passed into header for Authorization)
 
-Http EndPoint: /locationByid
+Http EndPoint: /location
 
 <strong>QueryString Parameters:</strong>
 
 ```{questions}
 - LocationID: (Format - uuid. The unique identifier for the LocationID)
+- AccountID : (Format - uuid. The unique identifier for the AccountID)
 - LocationNumber: (LocationNumber - string. A friendly number used internally to reference the specified Location (for support purposes))
 - ReferenceCode: (Format - uuid. An identifier for the Location specified by the user of the API)
 
