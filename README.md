@@ -1,3 +1,5 @@
+[include](File:ResponseDescription.md)
+
 # LocationPublicApi
 Sections
 
