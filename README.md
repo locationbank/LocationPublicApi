@@ -1,5 +1,3 @@
-[include](File:https://github.com/locationbank/LocationPublicApi/blob/main/README.md)
-[include](File:"https://github.com/locationbank/LocationPublicApi/blob/main/README.md")
 
 
 # LocationPublicApi
