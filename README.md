@@ -44,9 +44,7 @@ Http EndPoint: /locations
            ![Tux, the Linux mascot](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)
          
                     ![Tux, the Linux mascot](/blob/main/ResponseJsonBody.md)
-````@eval
-using Markdown
-Markdown.parse_file(joinpath("..", "src", "https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md"))
+
 `` `
 ---
 <strong>Response Description:</strong>
