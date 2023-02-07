@@ -38,7 +38,8 @@ All endpoints described in this document with the exception of Reporting have th
 > | Ocp-Apim-Subscription-Key        |  required  | string                  | Passed into **header** for Authorization                                 |
 > | Content-Type                      |  required  | application/json                                      |
 
-    ##### QueryString Parameters
+    
+  ##### QueryString Parameters
 
 > | name                             |  type     | data type               | description                                                           |
 > |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
@@ -51,13 +52,10 @@ All endpoints described in this document with the exception of Reporting have th
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
-                           |
+                         
  
   
 [Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
-
-
-
 
 </details> 
 
