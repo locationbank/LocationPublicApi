@@ -27,7 +27,7 @@ All endpoints described in this document with the exception of Reporting have th
 <h1>2.List of All Locations</h1>
 
 <details> 
-  <summary><strong><h1>GET / (List of All Locations)</h1>
+  <summary><strong><h2>GET / (List of All Locations)</h2>
 </strong>
 </summary>
   
