@@ -785,7 +785,7 @@ Http EndPoint: /locations
           description: The unique identifier for the Location (auto-generated)
           format: uuid
           example: 00000000-0000-0000-0000-000000000000
-LocationNumber:
+**LocationNumber** :
           type: string
           description: A friendly number used internally to reference the specified Location (for support purposes)
 ReferenceCode:
