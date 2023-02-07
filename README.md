@@ -399,7 +399,7 @@ Http EndPoint: /locations
     }
 ]
 ```
-
+</details> 
 ---
 
 <details> 
@@ -1244,7 +1244,7 @@ Http EndPoint: /location
 
 - Name : 'Format - string. 'Location Name'
 ```
-
+</details> 
 
 <strong>Response Json Body</strong>
 
