@@ -1227,8 +1227,10 @@ UserData:
           
           
 ```
-         
-         </details> 
+</details> 
+
+
+
 <h1>3.Create Locations</h1>
 
 Http Verb: POST.
