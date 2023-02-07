@@ -5465,29 +5465,3 @@ UserData:
         
 ```
 
-
----
-title: "Vertical needs"
-author: "Hyped"
-date: "December 13, 2016"
-output: ioslides_presentation
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-## Where's my vertical scrollbar?
-
-```{r}
-x <- matrix(nrow = 40, ncol = 4, data = 1)
-x
-```
-
-<style>
-pre {
-  white-space: pre !important;
-  overflow-y: scroll !important;
-  height: 50vh !important;
-}
-</style>
