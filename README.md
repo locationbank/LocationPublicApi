@@ -42,6 +42,8 @@ Http EndPoint: /locations
 - AccountID: (**Required**  Format - uuid. The unique identifier for the Account)
 ```
 [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
+  
+  
 [Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
 
 
