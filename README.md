@@ -2471,7 +2471,7 @@ Http EndPoint: /locationByid
 </summary>
        
 ```{questions}
-[    
+  
        
     {
         "accountID": "00000000-0000-0000-0000-000000000000",
@@ -2829,7 +2829,7 @@ Http EndPoint: /locationByid
         },
         "userData": null
     }
-]
+
 ```
 </details> 
 ---
@@ -9937,8 +9937,9 @@ UserData:
 
 ```
 
-<strong>Response Description:</strong>
-
+<details> 
+    <summary><strong>Response Description:</strong>
+  </summary>
 
 ```{questions}
 AccountID:
@@ -10754,6 +10755,12 @@ UserData:
           description: User defined data dictionary (array of key-value pairs) that can be used to store any additional information about a location
       description: The object contains partial uniModel data. It simplifies the data structure for presentation to the end user
           
-        
+          
+          
+          
+          
+          
+          
 ```
+</details> 
 
