@@ -37,7 +37,8 @@ Http EndPoint: /locations
 <details> 
   <summary><strong>Response Json Body</strong>
 </summary>
-(https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)
+
+![image](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)
 
 ---
 <strong>Response Description:</strong>
