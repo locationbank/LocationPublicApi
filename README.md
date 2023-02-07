@@ -34,7 +34,7 @@ Http EndPoint: /locations
 
 
 <strong>Response Json Body</strong>
-
+---
 ```{questions}
 [    
        
@@ -396,7 +396,7 @@ Http EndPoint: /locations
     }
 ]
 ```
-
+---
 <strong>Response Description:</strong>
 
 
