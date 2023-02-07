@@ -38,7 +38,7 @@ Http EndPoint: /locations
   <summary><strong>Response Json Body</strong>
 </summary>
        
-knitr::include_url("[https://yihui.org](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)")
+knitr::include_url("https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md")
 
 ---
 <strong>Response Description:</strong>
