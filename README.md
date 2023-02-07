@@ -27,7 +27,7 @@ All endpoints described in this document with the exception of Reporting have th
 </strong>
 </summary>
   
-[Opens in new tab](https://external.ink?to=/placeholder.com)
+<a href="http://stackoverflow.com" target="_blank">Go</a>
   
 Http Verb: GET.
 
