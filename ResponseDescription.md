@@ -1,4 +1,4 @@
-      > | http code     | content-type                      | response                                                            |
+> | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
 > | `400`         | 'application/json'                | "Field is Required"
