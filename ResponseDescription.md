@@ -14,8 +14,8 @@
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
 | BusinessStatus | string | 'The Status of the Location (Open, Closed, TemporarilyClosed)'                                                                 |
 | Status         | string | Record status                                                                                                                  |
-| BusinessName   | Object | BusinessNameObject   
-| BusinessDescription | Object | BusinessDescriptionObject                                                                                                             |
+| BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |   
+| BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)                                                       |
 
 <h2>DisplayPointObject</h2>
 
