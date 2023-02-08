@@ -27,6 +27,21 @@
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
+| PhotoURLs                 | Array  | PhotoObject                                                                                                                                                       |
+
+| KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location                                  |
+| CredentialsCertifications |        | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
+| Products                  |        | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
+| Services                  |        |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
+| Brands                    |        |  A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
+| YearFounded               |        | The year the Location was founded (must be four digits; e.g. 1992)                                                                                                |
+| ProfessionalAssociations  |        | A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location |
+| Tagline                   |        | A Tagline or slogan for the Location.                                                                                                                             |
+| NumberEmployees           |        | The number of employees at the Location (max length 5 chars)                                                                                                      |
+| AreasServed               |        | A comma separated list of Areas served by the Location (e.g. Downtown, Uptown, etc.)                                                                              |
+| Languages                 |        | A comma separated list of Languages spoken at the Location (see documentation for list of valid Languages and input format)                                       |
+| AlternateOrCorporateName  |        | ''                                                                                                                                                                |
+|                           |        |                                                                                                                                                                   |
 
 <h2>DisplayPointObject</h2>
 
