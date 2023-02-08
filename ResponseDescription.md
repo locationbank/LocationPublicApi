@@ -19,7 +19,7 @@
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string | The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
-| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)               | HoursOfOperationStructured | Object  | HoursOfOperationObject                                                                                |
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)               | HoursOfOperationStructured | Object  | [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
   
 
 <h2>DisplayPointObject</h2>
@@ -96,13 +96,13 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-| HoursOfOperationObject     | string  | Su                                                                            |
-| HoursOfOperationObject     | string  | Mo                                                                            |
-| HoursOfOperationObject     | string  | Tu                                                                            |
-| HoursOfOperationObject     | string  | We                                                                            |
-| HoursOfOperationObject     | string  | Th                                                                            |
-| HoursOfOperationObject     | string  | Fr                                                                            |
-| HoursOfOperationObject     | string  | Sat                                                                            |
+| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
 
 
   <h2>Day </h2>
@@ -115,7 +115,7 @@
 |                            |         |        
 
 
-  <h2>HoursOfOperationObject  </h2>
+  <h2>TimeRange  </h2>
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
