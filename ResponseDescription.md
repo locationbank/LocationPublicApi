@@ -1,23 +1,20 @@
-```{questions}
+> | Fields        | Description                                                                                              |
+> |---------------|----------------------------------------------------------------------------------------------------------|
+> | AccountID     |   type: string
+                      description: The unique identifier for the Account
+                      format: uuid
+                      example: 00000000-0000-0000-0000-000000000000
 
-
-> | Fileds                          | description                                                           
-> |-------------------------------------------------------------------------------------------------------------------|
-> | AccountID                        | type: string
-                                        description: The unique identifier for the Account          
-                                       format: uuid
-                                       example: 00000000-0000-0000-0000-000000000000
-
-> | LocationID                        | type: string
-                                        description: The unique identifier for the Location (auto-generated)
-                                        format: uuid
-                                        example: 00000000-0000-0000-0000-000000000000    
-                                         
+AccountID:
+          type: string
+          description: The unique identifier for the Account
+          format: uuid
+          example: 00000000-0000-0000-0000-000000000000
 LocationID:
           type: string
           description: The unique identifier for the Location (auto-generated)
           format: uuid
-          example: 00000000-0000-0000-0000-000000000000
+          example: 00000000-0000-0000-0000-00000000000
 LocationNumber:
           type: string
           description: A friendly number used internally to reference the specified Location (for support purposes)
@@ -816,10 +813,4 @@ AlternateOrCorporateName:
           description: ''
       description: Location Data Model
      
-          
-          
-          
-          
-          
-          
-```
+
