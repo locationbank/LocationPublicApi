@@ -16,6 +16,8 @@
 | Status         | string | Record status                                                                                                                  |
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |   
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)                                                       |
+| PrimaryAddress | Object | AddressObject  
+
 
 <h2>DisplayPointObject</h2>
 
@@ -43,3 +45,19 @@
 | Description         | string | A description of the Business for the Location; This field is needed to submit data to Yalwa (max length 200 chars)                                  |
 | ShortDescription    | string | A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars)                       |
 | longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars) |
+
+
+  <h2>AddressObject </h2>
+  
+| Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| AddressLine1   | string | First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine2   |        | econd line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine3   |        | Third line of an address (max length 80 chars)                                                                                                                                            |
+| AddressLine4   |        | Fourth line of an address (max length 80 chars)                                                                                                                                           |
+| AddressLine5   |        | Fifth line of an address (max length 80 chars)                                                                                                                                            |
+| Neighborhood   |        |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
+| Locality       |        |  Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
+| Region         |        | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
+| PostalCode     |        |  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
+| CountryCode    |        | 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
