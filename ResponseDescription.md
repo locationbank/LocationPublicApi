@@ -141,13 +141,15 @@
 | Category6          | string | Business Category 6                                                                                                          |
 | Category7          | string | Business Category 7                                                                                                          |
 | Category8          | string | Business Category 8                                                                                                          |
-| Category9          | string | Business Category 9                                                                                                           |
+| Category9          | string | Business Category 9                                                                                                          |
 
 
  <h2>ContactPersonObject  </h2>
   
 | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                 | FullName           | string | The full name of the Contact Person                                                                                          |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|   
+
+| FullName           | string | The full name of the Contact Person                                                                                          |
 | FirstName          | string | The First Name of the Contact Person (max length 15 chars)                                                                   |
 | MiddleName         | string | The Middle Name of the Contact Person                                                                                        |
 | LastName           | string | The Last Name of the Contact Person (max length 20 chars)                                                                    |
