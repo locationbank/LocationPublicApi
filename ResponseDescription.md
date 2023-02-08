@@ -27,8 +27,7 @@
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
-| PhotoURLs                 | Array  | PhotoObject                                                                                                                                                       |
-|---------------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PhotoURLs                 | Array  | PhotoObject                                                                                                           |                                          
 | KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location                                  |
 | CredentialsCertifications |        | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  |        | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
