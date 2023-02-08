@@ -97,6 +97,12 @@
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | HoursOfOperationObject     | string  | Su                                                                            |
+| HoursOfOperationObject     | string  | Mo                                                                            |
+| HoursOfOperationObject     | string  | Tu                                                                            |
+| HoursOfOperationObject     | string  | We                                                                            |
+| HoursOfOperationObject     | string  | Th                                                                            |
+| HoursOfOperationObject     | string  | Fr                                                                            |
+| HoursOfOperationObject     | string  | Sat                                                                            |
 
 
   <h2>Day </h2>
