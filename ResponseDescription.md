@@ -1,3 +1,5 @@
+<h1>Response Description</h1>
+
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|
 | AccountID      | string | The unique identifier for the Account                                                                    |
@@ -15,7 +17,7 @@
 | BusinessName   | Object | BusinessNameObject   
 | BusinessDescription | Object | BusinessDescriptionObject                                                                                                             |
 
-**DisplayPointObject**
+<h2>**DisplayPointObject**</h2>
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Type             | enum   | - Calculated -  ManuallyPlaced                                                                       |
