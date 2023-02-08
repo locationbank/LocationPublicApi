@@ -2,8 +2,8 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|
-| AccountID      | string | The unique identifier for the Account                                                                    |
-| LocationID     | string | The unique identifier for the Location (auto-generated)                                                  |
+| AccountID      | GUID  | The unique identifier for the Account                                                                    |
+| LocationID     | GUID  | The unique identifier for the Location (auto-generated)                                                  |
 | LocationNumber | string | A friendly number used internally to reference the specified Location                                    |
 | ReferenceCode  | string | An identifier for the Location specified by the user of the API                                          |
 | CreatedBy      | string | String indicating who or what created the Location                                                       |
