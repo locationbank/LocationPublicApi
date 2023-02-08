@@ -19,7 +19,8 @@
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string | The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
-| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)                  
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)               | HoursOfOperationStructured | Object  | HoursOfOperationObject                                                                                |
+  
 
 <h2>DisplayPointObject</h2>
 
@@ -88,3 +89,27 @@
 | CouponURL           | string | The Coupon URL for the Location (must be a valid URL)                                                                          |
 | SocialNetworkURL    | string | The Social Network URL for the Location (must be a valid URL)                                                                  |
 | VideoURL            | string | The Video URL for the Location (must be a valid URL)                                                                           |
+
+
+
+  <h2>HoursOfOperationObject  </h2>
+  
+ | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|    
+| HoursOfOperationObject     | string  | Su                                                                            |
+
+
+  <h2>HoursOfOperationObject  </h2>
+  
+ | Fields         | Type   | Description                                                                                              |
+| Ranges                     | Array   | TimeRange                                                                                             |
+| state                      | string  | Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3] |
+| additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
+|                            |         |        
+
+
+  <h2>HoursOfOperationObject  </h2>
+  
+ | Fields         | Type   | Description                                                                                              |
+| StartTime                  | string  | Start time                                                                                            |
+| EndTime                    | string  | End time                                                                                              |      
