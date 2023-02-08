@@ -1,8 +1,9 @@
-> | Fields        | Description                                                                                              |
-> |---------------|----------------------------------------------------------------------------------------------------------|
-> | AccountID     |   type: string    
- description: The unique identifier for the Account     
-format: uuid
+> | Fields        |     type         |     Description                                                                                              |
+> |---------------|------------------|---------------------------------------------------------------------------------------|
+> | AccountID     |    string        |  description: The unique identifier for the Account     
+> | AccountID     |    string        |  description: The unique identifier for the Account     
+> | AccountID     |    string        |  description: The unique identifier for the Account     
+> | AccountID     |    string        |  description: The unique identifier for the Account     
                   
                 
                   |   example: 00000000-0000-0000-0000-000000000000
