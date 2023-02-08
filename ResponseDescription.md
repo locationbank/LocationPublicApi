@@ -102,6 +102,7 @@
   <h2>HoursOfOperationObject  </h2>
   
  | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                               |
 | Ranges                     | Array   | TimeRange                                                                                             |
 | state                      | string  | Represent open/close state on the specific date.\r\n[Open=0|Closed=1|Open24Hrs=2|OpenByAppointment=3] |
 | additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
@@ -111,5 +112,6 @@
   <h2>HoursOfOperationObject  </h2>
   
  | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                             |
 | StartTime                  | string  | Start time                                                                                            |
 | EndTime                    | string  | End time                                                                                              |      
