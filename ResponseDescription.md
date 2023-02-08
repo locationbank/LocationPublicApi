@@ -17,8 +17,8 @@
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |   
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)                                                       |
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  
-| phoneNumbers        | Object | [PhoneNumbersObject] (https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#PhoneNumbersObject-)  |                                                                                                           
-| WebsiteURL          | string | 'The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)' |
+| phoneNumbers        | Object | [PhoneNumbersObject] (https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#PhoneNumbersObject-)                                                                                                           
+| WebsiteURL          | string | 'The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)' 
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#MediaURLsObject-)                                                                                                                |
 
 <h2>DisplayPointObject</h2>
