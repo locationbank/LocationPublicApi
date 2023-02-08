@@ -6,7 +6,7 @@
       > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
       > | CreatedBy              |    string        |  String indicating who or what created the Location
       > | ModifiedBy             |    string        |  String indicating who or what last modified the Location
-      > | Created                |    string        | 'Time, location was created' format: date-time
+      > | Created                |    string        | Time, location was created format: date-time
       > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
       > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
       > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
