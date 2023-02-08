@@ -17,9 +17,9 @@
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |   
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)                                                       |
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  
-| phoneNumbers        | Object | PhoneNumbersObject                                                                                                             |
+| phoneNumbers        | Object | [PhoneNumbersObject] (https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#PhoneNumbersObject-)                                                                                                              |
 | WebsiteURL          | string | 'The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)' |
-| mediaURLs           | Object | MediaURLsObject                                                                                                                |
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#MediaURLsObject-)                                                                                                                |
 
 <h2>DisplayPointObject</h2>
 
@@ -69,7 +69,6 @@
   
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-| Fields         | Type   | Description                                                                                              |
 |  PrimaryPhoneNumber | string | The Primary Phone Number for the Location                                                                                      |
 | Landline            | string | The Landline Phone Number for the Location                                                                                     |
 | Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
