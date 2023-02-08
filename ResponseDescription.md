@@ -169,3 +169,12 @@
 | EmailAddress | string | Contact Email address (must be a valid email address)                                         |
 
 
+ <h2>PhotoURLObject  </h2>
+  
+ | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+| Type                      | string | Type of photo ("ProfilePhoto": often displayed as a series, "CoverPhoto": usually only 1, "Logo": usually only 1, "O                                |
+| URL                       | string | The URL for the Photo                                                                                                                                             |
+| Name                      | string | The name of the Photo                                                                                                                                             |
+| Description               | string | A description of the Photo  |
+
