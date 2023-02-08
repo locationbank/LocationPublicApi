@@ -1,29 +1,21 @@
-> | Fields        |     type         |     Description                                                                                              |
-> |---------------|------------------|---------------------------------------------------------------------------------------|
-> | AccountID     |    string        |  description: The unique identifier for the Account     
-> | AccountID     |    string        |  description: The unique identifier for the Account     
-> | AccountID     |    string        |  description: The unique identifier for the Account     
-> | AccountID     |    string        |  description: The unique identifier for the Account     
-                  
+      > | Fields                 |     type         |     Description                                                                                              |
+      > |------------------------|------------------|---------------------------------------------------------------------------------------|
+      > | AccountID              |    string        |   The unique identifier for the Account     
+      > | LocationID             |    string        |  The unique identifier for the Location (auto-generated)  
+      > | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | CreatedBy          |    string        |  String indicating who or what created the Location
+      > | ModifiedBy          |    string        |  String indicating who or what last modified the Location
+      > | Created          |    string        | 'Time, location was created' format: date-time
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+      > | ReferenceCode          |    string        |  An identifier for the Location specified by the user of the API
+            
                 
-                  |   example: 00000000-0000-0000-0000-000000000000
-
-AccountID:
-          type: string
-          description: The unique identifier for the Account
-          format: uuid
-          example: 00000000-0000-0000-0000-000000000000
-LocationID:
-          type: string
-          description: The unique identifier for the Location (auto-generated)
-          format: uuid
-          example: 00000000-0000-0000-0000-00000000000
-LocationNumber:
-          type: string
-          description: A friendly number used internally to reference the specified Location (for support purposes)
-ReferenceCode:
-          type: string
-          description: An identifier for the Location specified by the user of the API
+                  
 CreatedBy:
           type: string
           description: String indicating who or what created the Locati
