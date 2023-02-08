@@ -143,3 +143,18 @@
 | Category8          | string | Business Category 8                                                                                                          |
 | Category9          | string | Business Category 9                                                                                                          |
 
+
+ <h2>BusinessCategoriesObject  </h2>
+  
+ | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+| Category1          | string | Business Category 1                                                                                                          |
+| Category2          | string | Business Category 2                                                                                                          |
+| Category3          | string | Business Category 3                                                                                                          |
+| Category4          | string | Business Category 4                                                                                                          |
+| Category5          | string | Business Category 5                                                                                                          |
+| Category6          | string | Business Category 6                                                                                                          |
+| Category7          | string | Business Category 7                                                                                                          |
+| Category8          | string | Business Category 8                                                                                                          |
+| Category9          | string | Business Category 9                                                                                                          |
+
