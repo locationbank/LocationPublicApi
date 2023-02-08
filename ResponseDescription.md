@@ -17,7 +17,7 @@
 | BusinessName   | Object | BusinessNameObject   
 | BusinessDescription | Object | BusinessDescriptionObject                                                                                                             |
 
-<h2>**DisplayPointObject**</h2>
+<h2>DisplayPointObject</h2>
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Type             | enum   | - Calculated -  ManuallyPlaced                                                                       |
@@ -26,7 +26,7 @@
 | VerificationType | enum   | - Client - Manually - DAC_PinIt - DAC_Goo
 
 
-**BusinessNameObject**
+<h2>BusinessNameObject </h2>
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Name           | string | A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
@@ -34,7 +34,7 @@
 | Locale         | string | Primary language 
 
 
-**BusinessDescriptionObject**
+  <h2>BusinessDescriptionObject </h2>
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Description         | string | A description of the Business for the Location; This field is needed to submit data to Yalwa (max length 200 chars)                                  |
