@@ -21,11 +21,11 @@
 | WebsiteURL          | string | The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject-)      | 
 | HoursOfOperationStructured | Object  | [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
-| businessCategories | Object | BusinessCategoriesObject                                                                                                     
+| businessCategories | Object | [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
 | Amenities          | string | A comma separated list of Amenities available at the Location (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
-| PrimaryContact     | Object | ContactPersonObject                                                                                                          |
+| PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
 
 <h2>DisplayPointObject</h2>
