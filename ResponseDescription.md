@@ -149,6 +149,8 @@
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|  
 
+| Category1          | string | Business Category 1                                                                                                          |
+
 | FullName           | string | The full name of the Contact Person                                                                                          |
 | FirstName          | string | The First Name of the Contact Person (max length 15 chars)                                                                   |
 | MiddleName         | string | The Middle Name of the Contact Person                                                                                        |
