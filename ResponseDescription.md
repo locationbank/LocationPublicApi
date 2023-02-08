@@ -19,7 +19,10 @@
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string | The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
-| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)      |         | HoursOfOperationStructured | Object  | [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)      | 
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject--)      | 
+| HoursOfOperationStructured | Object  | [HoursOfOperationObject]
+(https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
   
 
 <h2>DisplayPointObject</h2>
