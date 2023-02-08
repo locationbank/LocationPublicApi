@@ -17,7 +17,9 @@
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |   
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)                                                       |
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  
-
+| phoneNumbers        | Object | PhoneNumbersObject                                                                                                             |
+| WebsiteURL          | string | 'The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)' |
+| mediaURLs           | Object | MediaURLsObject                                                                                                                |
 
 <h2>DisplayPointObject</h2>
 
@@ -61,3 +63,25 @@
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
 | PostalCode     | string |  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
 | CountryCode    | string | 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+
+
+  <h2>PhoneNumbersObject </h2>
+  
+| Fields         | Type   | Description                                                                                              |
+|  PrimaryPhoneNumber | string | The Primary Phone Number for the Location                                                                                      |
+| Landline            | string | The Landline Phone Number for the Location                                                                                     |
+| Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
+| Fax                 | string | The Fax Number for the Location                                                                                                |
+| TollFree            | string | The Toll-Free Phone Number for the Location                                                                                    |
+
+
+  <h2>MediaURLsObject  </h2>
+  
+| FacebookURL         | string | The Facebook URL for the Location (must be a valid URL)                                                                        |
+| TwitterURL          | string | The Twitter URL for the Location (must be a valid URL)                                                                         |
+| LinkedInURL         | string | The LinkedIn URL for the Location (must be a valid URL)                                                                        |
+| InstagramURL        | string | The Instagram URL for the Location (must be a valid URL)                                                                       |
+| PinterestURL        | string | The Pinterest URL for the Location (must be a valid URL)                                                                       |
+| CouponURL           | string | The Coupon URL for the Location (must be a valid URL)                                                                          |
+| SocialNetworkURL    | string | The Social Network URL for the Location (must be a valid URL)                                                                  |
+| VideoURL            | string | The Video URL for the Location (must be a valid URL)                                                                           |
