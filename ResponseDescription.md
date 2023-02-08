@@ -1,8 +1,16 @@
-> | http code     | content-type                      | response                                                            |
-> |---------------|-----------------------------------|---------------------------------------------------------------------|
-> | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
-> | `400`         | 'application/json'                | "Field is Required"
-> | `500`         | `'application/json'               | "Error Message"
+| Fields         | Type   | Description                                                                                    | Format |
+|----------------|--------|------------------------------------------------------------------------------------------------|--------|
+| AccountID      | string | The unique identifier for the Account                                                          | uuid   |
+| LocationID     | string | The unique identifier for the Location (auto-generated)                                        | uuid   |
+| LocationNumber | string |  A friendly number used internally to reference the specified Location (for support purposes)
+ |        |
+| ReferenceCode  | string | An identifier for the Location specified by the user of the API                                |        |
+| CreatedBy      |        | String indicating who or what created the Location                                             |        |
+|                |        |                                                                                                |        |
+|                |        |                                                                                                |        |
+|                |        |                                                                                                |        |
+|                |        |                                                                                                |        |
+
       
       
 > | Fields                 |     type         |     Description                                                                                      |
@@ -10,7 +18,12 @@
 > | AccountID              |    string        |   The unique identifier for the Account     
 > | LocationID             |    string        |   The unique identifier for the Location (auto-generated)  
 > | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
-      
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+     
 
             
                 
