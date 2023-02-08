@@ -11,7 +11,7 @@
 | Created        | string | 'Time, location was created'                                                                             |
 | Modified       | string | Time location was modified                                                                               |
 | KeyFields      | object | Dynamic storage of the key fields for the location or custom data which is used by specific applications |
-| DisplayPoint     | object | DisplayPointObject  
+| DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
 | BusinessStatus | string | 'The Status of the Location (Open, Closed, TemporarilyClosed)'                                                                 |
 | Status         | string | Record status                                                                                                                  |
 | BusinessName   | Object | BusinessNameObject   
