@@ -27,7 +27,7 @@
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
-| PhotoURLs                 | Array  | PhotoObject                                                                                                           |                                          
+| PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#photourlobject--)                                                                                                           |                                          
 | KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location                                  |
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
@@ -173,7 +173,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Type                      | string | Type of photo ("ProfilePhoto": often displayed as a series, "CoverPhoto": usually only 1, "Logo": usually only 1, "O                                |
+| Type                      | string | Type of photo ("ProfilePhoto": often displayed as a series, "CoverPhoto": usually only 1, "Logo": usually only 1, "Other"                                |
 | URL                       | string | The URL for the Photo                                                                                                                                             |
 | Name                      | string | The name of the Photo                                                                                                                                             |
 | Description               | string | A description of the Photo  |
