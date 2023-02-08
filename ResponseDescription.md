@@ -5,11 +5,11 @@
 > | `500`         | `'application/json'               | "Error Message"
       
       
-      > | Fields                 |     type         |     Description                                                                                      |
-      > |------------------------|------------------|------------------------------------------------------------------------------------------------------|
-      > | AccountID              |    string        |   The unique identifier for the Account     
-      > | LocationID             |    string        |  The unique identifier for the Location (auto-generated)  
-      > | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
+> | Fields                 |     type         |     Description                                                                                      |
+> |------------------------|------------------|------------------------------------------------------------------------------------------------------|
+> | AccountID              |    string        |   The unique identifier for the Account     
+> | LocationID             |    string        |   The unique identifier for the Location (auto-generated)  
+> | LocationNumber         |    string        |  A friendly number used internally to reference the specified Location (for support purposes)    
       
 
             
