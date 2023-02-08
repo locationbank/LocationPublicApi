@@ -52,8 +52,8 @@ All endpoints described in this document with the exception of Reporting have th
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
-> | `400`         | `text/plain;charset=UTF-8`        | "Field is Required"
-> | `500`         | `text/plain;charset=UTF-8`        | "Error Message"
+> | `400`         | 'application/json'                | "Field is Required"
+> | `500`         | `'application/json'               | "Error Message"
                       
  
   
