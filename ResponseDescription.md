@@ -13,6 +13,7 @@
 | BusinessStatus | string | 'The Status of the Location (Open, Closed, TemporarilyClosed)'                                                                 |
 | Status         | string | Record status                                                                                                                  |
 | BusinessName   | Object | BusinessNameObject   
+| BusinessDescription | Object | BusinessDescriptionObject                                                                                                             |
 
 **DisplayPointObject**
 | Fields         | Type   | Description                                                                                              |
@@ -29,3 +30,11 @@
 | Name           | string | A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
 | LongName       | string | A long Business Name for the Location (max length 80 chars)                                                                    |
 | Locale         | string | Primary language 
+
+
+**BusinessDescriptionObject**
+| Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Description         | string | A description of the Business for the Location; This field is needed to submit data to Yalwa (max length 200 chars)                                  |
+| ShortDescription    | string | A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars)                       |
+| longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars) |
