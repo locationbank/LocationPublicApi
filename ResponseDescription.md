@@ -1,3 +1,10 @@
+      > | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
+> | `400`         | 'application/json'                | "Field is Required"
+> | `500`         | `'application/json'               | "Error Message"
+      
+      
       > | Fields                 |     type         |     Description                                                                                      |
       > |------------------------|------------------|------------------------------------------------------------------------------------------------------|
       > | AccountID              |    string        |   The unique identifier for the Account     
