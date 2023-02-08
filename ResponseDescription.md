@@ -66,7 +66,8 @@
 
 
   <h2>PhoneNumbersObject </h2>
-  
+  | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | Fields         | Type   | Description                                                                                              |
 |  PrimaryPhoneNumber | string | The Primary Phone Number for the Location                                                                                      |
 | Landline            | string | The Landline Phone Number for the Location                                                                                     |
@@ -76,7 +77,8 @@
 
 
   <h2>MediaURLsObject  </h2>
-  
+  | Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | FacebookURL         | string | The Facebook URL for the Location (must be a valid URL)                                                                        |
 | TwitterURL          | string | The Twitter URL for the Location (must be a valid URL)                                                                         |
 | LinkedInURL         | string | The LinkedIn URL for the Location (must be a valid URL)                                                                        |
