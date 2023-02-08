@@ -66,6 +66,7 @@
 
 
   <h2>PhoneNumbersObject </h2>
+  
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | Fields         | Type   | Description                                                                                              |
@@ -77,6 +78,7 @@
 
 
   <h2>MediaURLsObject  </h2>
+  
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | FacebookURL         | string | The Facebook URL for the Location (must be a valid URL)                                                                        |
