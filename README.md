@@ -52,8 +52,7 @@ All endpoints described in this document with the exception of Reporting have th
 > | http code     | content-type                      | response                                                            |
 > |---------------|-----------------------------------|---------------------------------------------------------------------|
 > | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
-> | `400`         | 'application/json'                | "Field is Required"
-> | `500`         | `'application/json'               | "Error Message"
+
                       
  
   
@@ -64,203 +63,41 @@ All endpoints described in this document with the exception of Reporting have th
 ---
 
 <h1>3.Create Locations</h1>
-
-Http Verb: POST.
-
-Headers: Content-Type: application/json
-
-         Ocp-Apim-Subscription-Key : (Format - string. Passed into header for Authorization)
-
-Http EndPoint: /location
-
 <details> 
-  <summary><strong>FromBody  Parameters:</strong>
+  <summary><strong><h2>POST / (Http EndPoint:  /location)</h2>
+</strong>
 </summary>
-       
-```{questions}
-   
-       
-    {
-        "accountID": "00000000-0000-0000-0000-000000000000",
-        "locationID": "e2f30897-bd1b-40e2-b1b6-98e446dc8ced",
-        "locationNumber": "test",
-        "referenceCode": null,
-        "createdBy": "LocationBankAPI",
-        "modifiedBy": "LocationBankAPI",
-        "created": null,
-        "modified": null,
-        "locationBankPublicLocationData": {
-            "keyFields": {
-                "pinMarker": "true",
-                "ReferenceCode": "test",
-                "chainName": null,
-                "primarylanguage": "en-"
-            },
-            "displayPoint": {
-                "type": "Calculated",
-                "latitude": -25.73134,
-                "longitude": 28.21837,
-                "verificationType": "Other"
-            },
-            "businessStatus": "Open",
-            "status": "Active",
-            "businessName": {
-                "name": "test",
-                "longName": "test"
-            },
-            "businessDescription": {
-                "description": null,
-                "shortDescription": null,
-                "longDescription": null
-            },
-            "primaryAddress": {
-                "addressLine1": "",
-                "addressLine2": "",
-                "addressLine3": "",
-                "addressLine4": "",
-                "addressLine5": "",
-                "neighborhood": "",
-                "locality": "",
-                "region": "",
-                "postalCode": "",
-                "countryCode": ""
-            },
-            "phoneNumbers": {
-                "primaryPhoneNumber": "",
-                "landline": null,
-                "mobile": null,
-                "fax": null,
-                "tollFree": null
-            },
-            "websiteURL": "",
-            "alternateWebsiteURL": null,
-            "mediaURLs": {
-                "facebookUrl": "",
-                "twitterUrl": "",
-                "linkedInUrl": "",
-                "instagramUrl": "",
-                "pinterestUrl": "",
-                "couponUrl": "",
-                "socialNetworkUrl": "",
-                "videoUrl": ""
-            },
-            "hoursOfOperation": null,
-            "hoursOfOperationStructured": {
-                "su": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "mo": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "tu": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "we": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "th": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "fr": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "sa": {
-                    "ranges": [
-                        {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
-                        }
-                    ],
-                    "state": "Open",
-                    "additionalInfo": ""
-                },
-                "specialHours": []
-            },
-            "businessCategories": {
-                "category1": "",
-                "category2": "",
-                "category3": "",
-                "category4": "",
-                "category5": "",
-                "category6": "",
-                "category7": "",
-                "category8": "",
-                "category9": "",
-                "category10": ""
-            },
-            "chain": null,
-            "amenities": "",
-            "paymentMethods": "",
-            "primaryContact": {
-                "fullName": null,
-                "firstName": null,
-                "middleName": null,
-                "lastName": null,
-                "title": null,
-                "emailAddress": null
-            },
-            "emailAddress": "",
-            "photoURLs": [],
-            "keywordsSpecialties": "",
-            "credentialsCertifications": "",
-            "products": "",
-            "services": null,
-            "brands": null,
-            "yearFounded": "",
-            "professionalAssociations": "",
-            "tagline": null,
-            "numberEmployees": "",
-            "areasServed": null,
-            "languages": "en",
-            "alternateOrCorporateName": null
-        }
-    }    
+  
+  ##### Headers Parameters
 
-```
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | Ocp-Apim-Subscription-Key        |  required  | string                  | Passed into **header** for Authorization                                 |
+> | Content-Type                      |  required  | application/json                                      |
+
+    
+  ##### FromBody Parameters
+
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | LocationBankPublic Object         |Required  | Object                  | [LocationBankPublic Object](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)                             |
+
+
+
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBodyArray.md)
+ > | `400`         | 'application/json'                | "Field is Required"
+> | `500`         | `'application/json'               | "Error Message"
+                      
+ 
+  
+[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
 
 </details> 
+
 
 
 <details> 
