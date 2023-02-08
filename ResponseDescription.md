@@ -1,13 +1,18 @@
 ```{questions}
 
-|   |   |
-|---|---|
-|   |   |
-AccountID :
-          type: string
-          description: The unique identifier for the Account
-          format: uuid
-          example: 00000000-0000-0000-0000-000000000000
+
+> | Fileds                          | description                                                           
+> |-------------------------------------------------------------------------------------------------------------------|
+> | AccountID                        | type: string
+                                        description: The unique identifier for the Account          
+                                       format: uuid
+                                       example: 00000000-0000-0000-0000-000000000000
+
+> | LocationID                        | type: string
+                                        description: The unique identifier for the Location (auto-generated)
+                                        format: uuid
+                                        example: 00000000-0000-0000-0000-000000000000    
+                                         
 LocationID:
           type: string
           description: The unique identifier for the Location (auto-generated)
