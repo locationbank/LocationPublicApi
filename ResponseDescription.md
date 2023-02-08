@@ -154,5 +154,5 @@
 | MiddleName         | string | The Middle Name of the Contact Person                                                                                        |
 | LastName           | string | The Last Name of the Contact Person (max length 20 chars)                                                                    |
 | Title              | string | Title (e.g. Regional Sales Manager, Customer Support Technician, etc.) (max length 256 chars)                                |
-| EmailAddress       | string | Contact Email address (must be a valid email address)                                                                         |
+| EmailAddress       | string | Contact Email address (must be a valid email address)                                                                        |
 
