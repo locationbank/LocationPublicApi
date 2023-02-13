@@ -18,7 +18,7 @@
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#Recordstatus)                                                                                                                  |
 | BusinessName   | Object |**Required** <br /><br /> [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
-| PrimaryAddress | Object |**Required**<br /><br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-) <br />Location Address:A business that serves customers only at their business address. Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. <br /><br />If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.<br /><br /> For example, a dine-in restaurant that also delivers food. Service Area Only:Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address.<br /><br /> For example, businesses like cleaning services or plumbers. Service-area businesses can only create one profile for the metropolitan area that they serve.  |
+| PrimaryAddress | Object |**Required**<br /><br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject-)      | 
@@ -132,9 +132,12 @@
 
 | Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| LOCATION                  | string  |                                                      |
-| LOCATION_SERVICE          | string  |                                               |      
-| SERVICE                    | string  |                                         |     
+| LOCATION                  | string  |       Location Address: A business that serves customers only at their business address.                                               |
+| LOCATION_SERVICE          | string  |     Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.For example, a dine-in restaurant that also delivers food. 
+                                          |      
+| SERVICE                    | string  | Service Area Only:Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address. <br/>
+For example, businesses like cleaning services or plumbers. <br/>
+Service-area businesses can only create one profile for the metropolitan area that they serve."                                        |     
 
 
   <h2>PhoneNumbersObject </h2>
