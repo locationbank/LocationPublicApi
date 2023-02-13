@@ -97,7 +97,7 @@
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Name           | string | A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
 | LongName       | string | A long Business Name for the Location (max length 80 chars)                                                                    |
-| Locale         | string | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#verificationtype) 
+| Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnamelocale--) 
 
 
   <h2>BusinessDescriptionObject </h2>
