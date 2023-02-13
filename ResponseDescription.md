@@ -191,7 +191,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Type                      | string | [Type of photo] (https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#PhotoType)                        |
+| Type                      | string | [Type of photo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phototype--)                        |
 | URL                       | string | The URL for the Photo                                                                                                                                             |
 | Name                      | string | The name of the Photo                                                                                                                                             |
 | Description               | string | A description of the Photo  |
