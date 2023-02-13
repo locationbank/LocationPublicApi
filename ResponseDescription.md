@@ -48,7 +48,7 @@
 | Type             | enum   | - [Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type--)                                                                   |
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
-| VerificationType | enum   | -[Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#VerificationType--)   
+| VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#VerificationType--)   
 
 
 <h2>Type</h2>
@@ -63,8 +63,7 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Client     | string   | Display point verification type                                                                      |
-| Manually         | string | Display point verification type           
-  
+| Manually         | string | Display point verification type       |    
 | DAC_PinIt     | string   | Display point verification type                                                                 |
 | DAC_Google     | string   |Display point verification type                                                                      |
 | Other     | string   | Display point verification type                                                                       
