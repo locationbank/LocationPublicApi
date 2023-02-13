@@ -47,7 +47,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#type)                                                                   |
+| Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointtype)                                                                   |
 | Latitude         | number |**Required** <br /><br /> 'Latitude of the Location represented by a high precision decimal number' <br /> Latitude  coordinate system by means of which the position or location of any place on Earth's surface can be determined and described          |
 | Longitude        | number | **Required**<br /><br />  'Longitude of the Location represented by a high precision decimal number' <br />  longitude coordinate system by means of which the position or location of any place on Earth's surface can be determined and described         |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#verificationtype)   
