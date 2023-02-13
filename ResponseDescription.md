@@ -48,7 +48,7 @@
 | Type             | enum   | - [Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type--)                                                                   |
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
-| VerificationType | enum   | - Client - Manually - DAC_PinIt - DAC_Goo
+| VerificationType | enum   | -[Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#VerificationType--)   
 
 
 <h2>Type</h2>
@@ -58,6 +58,16 @@
 | Calculated     | string   | The method used to determing the geocode for the Location ("Calculated": the typical method)                                                                       |
 | ManuallyPlaced         | string | The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually)            
 
+<h2>VerificationType</h2>
+
+| Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Client     | string   | Display point verification type                                                                      |
+| Manually         | string | Display point verification type           
+  
+| DAC_PinIt     | string   | Display point verification type                                                                 |
+| DAC_Google     | string   |Display point verification type                                                                      |
+| Other     | string   | Display point verification type                                                                       
 
 
 <h2>BusinessNameObject </h2>
