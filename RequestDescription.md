@@ -75,7 +75,7 @@
 | Duplicate     | string   | The Status of the Location                                                             
 
 
-<h2>Type</h2>
+<h2>DisplayPointType</h2>
 
 | Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
