@@ -107,13 +107,29 @@
 | ShortDescription    | string |**Required**<br /> A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars)."Enter a short description (max 160. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better.<br /> Do not input any contact data like Email, Phone or Website."                       |
 | longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars).This field is needed to submit data to Yalwa (max length 200 chars).<br />"Enter a Long description (max 750. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better. Do not input any contact data like Email, Phone or Website."   |
 
+<h2>AddressObject </h2>
+  
+| Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
+| AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
+| AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
+| Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
+| Locality       | string | **Required** Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
+| Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
+| PostalCode     | string | **Required** Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
+| CountryCode    | string | **Required** 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+
+
 
   <h2>AddressObject </h2>
   
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|  
 
-| AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                                                                                         |
+| AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                            |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
