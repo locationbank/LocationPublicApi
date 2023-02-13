@@ -35,6 +35,7 @@
                 "longDescription": ""
             },
             "primaryAddress": {
+                "addressVisibility": "LOCATION",
                 "addressLine1": "",
                 "addressLine2": "",
                 "addressLine3": "",
