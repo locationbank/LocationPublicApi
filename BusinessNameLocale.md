@@ -1,5 +1,5 @@
 
- <h2>BusinessNameLocale  </h2>
+ <h2>Language  </h2>
 
 
 |                  Enum |
