@@ -146,8 +146,8 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                             
-| Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                                             |
-| state                      | string  | Represent open/close state on the specific date.Open=0 Closed=1 Open24Hrs=2 OpenByAppointment=3] |
+| Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)             |
+| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#state)   |
 | additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
 |                            |         |        
 
@@ -158,6 +158,16 @@
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
 | StartTime                  | string  | Start time                                                                                            |
 | EndTime                    | string  | End time                                                                                              |      
+
+
+  <h2>state  </h2>
+  
+ | Enum         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+| Open                  | string  | Represent open/close state on the specific date  [Open=0]                                                       |
+| Closed                    | string  | Represent open/close state on the specific date  [Closed=1]                                                |      
+| Open24Hrs                    | string  | Represent open/close state on the specific date  [Open24Hrs=2]                                           |     
+| OpenByAppointment                    | string  | Represent open/close state on the specific date OpenByAppointment=3                                                                                               
 
 
  <h2>BusinessCategoriesObject  </h2>
@@ -191,7 +201,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Type                      | string | [Type of photo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phototype--)                        |
+| Type                      | Enum | [Type of photo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phototype--)                        |
 | URL                       | string | The URL for the Photo                                                                                                                                             |
 | Name                      | string | The name of the Photo                                                                                                                                             |
 | Description               | string | A description of the Photo  |
