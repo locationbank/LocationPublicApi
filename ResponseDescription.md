@@ -191,8 +191,19 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Type                      | string | Type of photo ("ProfilePhoto": often displayed as a series, "CoverPhoto": usually only 1, "Logo": usually only 1, "Other"                                |
+| Type                      | string | [Type of photo] (https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#PhotoType)                        |
 | URL                       | string | The URL for the Photo                                                                                                                                             |
 | Name                      | string | The name of the Photo                                                                                                                                             |
 | Description               | string | A description of the Photo  |
+
+
+
+ <h2>PhotoType  </h2>
+  
+ | Enum         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+| ProfilePhoto                      | string | "ProfilePhoto": often displayed as a series                                |
+| CoverPhoto                       | string | "CoverPhoto": usually only 1                                                 |
+| Logo                      | string | usually only 1                                                                      |
+| Other               | string | ''  |
 
