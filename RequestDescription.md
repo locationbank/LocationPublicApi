@@ -9,7 +9,7 @@
 | ModifiedBy     | string | String indicating who or what last modified the Location                                                 |
 | Created        | string | 'Time, location was created'                                                                             |
 | Modified       | string | Time location was modified                                                                               |
-| KeyFields      | object |**Required**<br /><br /> Dynamic storage of the key fields for the location or custom data which is used by specific applications.Keywords must be specific to what the business does e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food |
+| KeyFields      | object |**Required**<br /><br /> Dynamic storage of the key fields for the location or custom data which is used by specific applications.Keywords must be specific to what the business does<br /> e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food |
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointobject) |  
 | BusinessStatus | enum |**Required**<br /><br /> [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessstatus)                                                                 |
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#Recordstatus)                                                                                                                  |
