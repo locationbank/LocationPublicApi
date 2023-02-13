@@ -132,12 +132,11 @@
 
 | Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| LOCATION                  | string  |       Location Address: A business that serves customers only at their business address.                                               |
-| LOCATION_SERVICE          | string  |     Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.For example, a dine-in restaurant that also delivers food. 
-                                          |      
+| LOCATION                  | string  |       Location Address: A business that serves customers only at their business address.               |
+| LOCATION_SERVICE          | string  |     Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.For example, a dine-in restaurant that also delivers food.  |      
 | SERVICE                    | string  | Service Area Only:Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address. <br/>
 For example, businesses like cleaning services or plumbers. <br/>
-Service-area businesses can only create one profile for the metropolitan area that they serve."                                        |     
+Service-area businesses can only create one profile for the metropolitan area that they serve.                                            
 
 
   <h2>PhoneNumbersObject </h2>
