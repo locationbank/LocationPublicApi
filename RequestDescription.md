@@ -10,23 +10,23 @@
 | Created        | string | 'Time, location was created'                                                                             |
 | Modified       | string | Time location was modified                                                                               |
 | KeyFields      | object |**Required** Dynamic storage of the key fields for the location or custom data which is used by specific applications |
-| DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
-| BusinessStatus | enum |**Required** [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessstatus)                                                                 |
-| Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#Recordstatus)                                                                                                                  |
-| BusinessName   | Object |**Required** [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject-) |  
-| BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)  |
-| PrimaryAddress | Object |**Required** [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
-| phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
+| DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointobject) |  
+| BusinessStatus | enum |**Required** [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessstatus)                                                                 |
+| Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#Recordstatus)                                                                                                                  |
+| BusinessName   | Object |**Required** [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
+| BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
+| PrimaryAddress | Object |**Required** [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-)  |
+| phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string |**Required** The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
-| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject-)      | 
-| HoursOfOperationStructured | Object  |**Required** [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
-| businessCategories | Object |**Required** [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businesscategoriesobject--)                                                                                                     
+| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject-)      | 
+| HoursOfOperationStructured | Object  |**Required** [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--)                                                        |
+| businessCategories | Object |**Required** [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
 | Amenities          | string | A comma separated list of Amenities available at the Location (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
-| PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
+| PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
-| PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#photourlobject--)                                                                                                           |                                          
+| PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#photourlobject--)                                                                                                           |                                          
 | KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location                                  |
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
@@ -44,10 +44,10 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type)                                                                   |
+| Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#type)                                                                   |
 | Latitude         | number |**Required** 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | **Required** 'Longitude of the Location represented by a high precision decimal number'           |
-| VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#verificationtype)   
+| VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#verificationtype)   
 
 
 
@@ -96,7 +96,7 @@
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Name           | string |**Required** A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
 | LongName       | string | A long Business Name for the Location (max length 80 chars)                                                                    |
-| Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnamelocale--) 
+| Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnamelocale--) 
 
 
   <h2>BusinessDescriptionObject </h2>
@@ -154,21 +154,21 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
 
 
   <h2>Day </h2>
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                             
-| Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)             |
-| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#state--)   |
+| Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)             |
+| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#state--)   |
 | additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
 |                            |         |        
 
@@ -222,7 +222,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Type                      | Enum | [Type of photo](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phototype--)                        |
+| Type                      | Enum | [Type of photo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phototype--)                        |
 | URL                       | string | The URL for the Photo                                                                                                                                             |
 | Name                      | string | The name of the Photo                                                                                                                                             |
 | Description               | string | A description of the Photo  |
