@@ -53,14 +53,14 @@
 
 <h2>Type</h2>
 
-| Fields         | Type   | Description                                                                                              |
+| Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Calculated     | string   | The method used to determing the geocode for the Location ("Calculated": the typical method)                                                                       |
 | ManuallyPlaced         | string | The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually)            
 
 <h2>VerificationType</h2>
 
-| Fields         | Type   | Description                                                                                              |
+| Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Client     | string   | Display point verification type                                                                      |
 | Manually         | string | Display point verification type       |    
