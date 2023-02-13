@@ -112,6 +112,7 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
