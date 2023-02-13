@@ -22,7 +22,7 @@
 | HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--)                                                        |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
-| Amenities          | string | A comma separated list of Amenities available at the Location (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
+| Amenities          | string | A comma separated list of Amenities available at the Location <br /> (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
@@ -119,9 +119,9 @@
 | AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
 | Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
 | Locality       | string | **Required** <br /><br /> Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
-| Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
+| Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated' |
 | PostalCode     | string | **Required** <br /><br />  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | **Required** <br /><br />   'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+| CountryCode    | string | **Required** <br /><br />   'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location <br /> (e.g. US, CA, FR, DE, etc.)                                                                            |
 
                                  
 
@@ -138,7 +138,7 @@
   
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-|  PrimaryPhoneNumber | string |**Required** <br /><br /> The Primary Phone Number for the Location. "The best number for customers to use to reach your business. This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."                                                                                      |
+|  PrimaryPhoneNumber | string |**Required** <br /><br /> The Primary Phone Number for the Location. "The best number for customers to use to reach your business. <br /> This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."                                                                                      |
 | Landline            | string | The Landline Phone Number for the Location                                                                                     |
 | Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
 | Fax                 | string | The Fax Number for the Location                                                                                                |
@@ -164,13 +164,13 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br />   These are the trading hours of the business                                                                          |
-| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  <br /> These are the trading hours of the business                                                                          |
-| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /><br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /><br />   These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  <br /><br /> These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /><br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> <br />These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /><br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /><br /> These are the trading hours of the business                                                                           |
 
 
   <h2>Day </h2>
