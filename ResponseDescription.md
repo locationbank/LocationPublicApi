@@ -45,7 +45,8 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Type             | enum   | - **Calculated** -  **ManuallyPlaced**  The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually, "Calculated": the typical method)                                                                       |
+| Type             | enum   | - **Calculated** -  **ManuallyPlaced**  
+The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually, "Calculated": the typical method)                                                                       |
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | - Client - Manually - DAC_PinIt - DAC_Goo
