@@ -94,7 +94,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Name           | string |**Required** A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
+| Name           | string |**Required** A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
 | LongName       | string | A long Business Name for the Location (max length 80 chars)                                                                    |
 | Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnamelocale--) 
 
@@ -112,7 +112,8 @@
   
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine1   | string |**Required** First line of an address (max length 80 chars).  Location Address:
+A business that serves customers only at their business address.                                                                                                                                         |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
