@@ -111,7 +111,7 @@
   <h2>AddressObject </h2>
   
 | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                  | AddressVisibility   | enum | [AddressVisibility](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressvisibility-)     |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                  
 | AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                                                                                         |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
