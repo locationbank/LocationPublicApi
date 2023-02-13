@@ -122,16 +122,15 @@
 | Locality       | string | **Required** <br />Locality generally represents a City or Town (max length 28 chars)  The city or town where the business is located                                                                                                                     |
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'<br /> The state or province where the business is located |
 | PostalCode     | string | **Required**<br /> Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | **Required** <br />'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            
+| CountryCode    | string | **Required** <br />'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)  |                                                                            
 
   <h2>AddressVisibility </h2>
 
-
 | Enum         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| LOCATION                  | string  | Represent open/close state on the specific date  [Open=0]                                                       |
-| LOCATION_SERVICE                    | string  | Represent open/close state on the specific date  [Closed=1]                                                |      
-| SERVICE                    | string  | Represent open/close state on the specific date  [Open24Hrs=2]                                           |     
+| LOCATION                  | string  |                                                      |
+| LOCATION_SERVICE          | string  |                                               |      
+| SERVICE                    | string  |                                         |     
 
 
   <h2>PhoneNumbersObject </h2>
