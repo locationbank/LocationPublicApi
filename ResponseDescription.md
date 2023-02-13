@@ -12,7 +12,7 @@
 | Modified       | string | Time location was modified                                                                               |
 | KeyFields      | object | Dynamic storage of the key fields for the location or custom data which is used by specific applications |
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
-| BusinessStatus | string | 'The Status of the Location (Open, Closed, TemporarilyClosed)'                                                                 |
+| BusinessStatus | enum | [The Status of the Location](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#BusinessStatus--)                                                                 |
 | Status         | string | Record status                                                                                                                  |
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)  |
@@ -49,6 +49,18 @@
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#verificationtype)   
+
+
+
+
+<h2>BusinessStatus</h2>
+
+| Enum         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Open     | string   | The Status of the Location                                                                    |
+| Closed     | string   | The Status of the Location                                                                  |
+| TemporarilyClosed     | string   | The Status of the Location                                                                      |
+| Duplicate     | string   | The Status of the Location                                                             
 
 
 <h2>Type</h2>
