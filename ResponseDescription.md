@@ -46,8 +46,8 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Type             | enum   | - Calculated -  ManuallyPlaced                                                                       |
-| Latitude         | number | '[TO BE REMOVED] Latitude of the Location represented by a high precision decimal number'            |
-| Longitude        | number | '[TO BE REMOVED] Longitude of the Location represented by a high precision decimal number'           |
+| Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
+| Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | - Client - Manually - DAC_PinIt - DAC_Goo
 
 
