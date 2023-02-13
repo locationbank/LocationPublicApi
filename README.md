@@ -82,6 +82,8 @@ All endpoints described in this document with the exception of Reporting have th
 > |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | LocationBankPublic Object         |Required  | Object                  | [LocationBankPublic Object](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)                             |
 
+  [Request Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
+
 
 
 ##### Responses
@@ -160,7 +162,7 @@ All endpoints described in this document with the exception of Reporting have th
 > |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
 > | LocationBankPublic Object         |Required  | Object                  | [LocationBankPublic Object](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseJsonBody.md)                             |
 
-[Request Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
+  [Request Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
 
 
 ##### Responses
