@@ -14,7 +14,7 @@
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
 | BusinessStatus | enum | [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessstatus)                                                                 |
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#Recordstatus)                                                                                                                  |
-| BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |  
+| BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject-) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)  |
 | PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
