@@ -213,6 +213,7 @@
                 "longDescription": ""
             },
             "primaryAddress": {
+                "addressVisibility": "LOCATION",
                 "addressLine1": "Address 1",
                 "addressLine2": "",
                 "addressLine3": "",
@@ -390,6 +391,7 @@
                 "longDescription": null
             },
             "primaryAddress": {
+                "addressVisibility": "LOCATION",
                 "addressLine1": "",
                 "addressLine2": "",
                 "addressLine3": "",
@@ -567,6 +569,7 @@
                 "longDescription": ""
             },
             "primaryAddress": {
+               "addressVisibility": "LOCATION",
                 "addressLine1": "7 Voortrekker Rd Rd",
                 "addressLine2": "Shop 106-107",
                 "addressLine3": "",
