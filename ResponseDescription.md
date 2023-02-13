@@ -45,11 +45,19 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Type             | enum   | - **Calculated** -  **ManuallyPlaced**  
-The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually, "Calculated": the typical method)                                                                       |
+| Type             | enum   | - [Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type--)                                                                   |
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | - Client - Manually - DAC_PinIt - DAC_Goo
+
+
+<h2>Type</h2>
+
+| Fields         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Calculated     | string   | The method used to determing the geocode for the Location ("Calculated": the typical method)                                                                       |
+| ManuallyPlaced         | string | The method used to determing the geocode for the Location ("ManuallyPlaced": confirmed visually)            
+
 
 
 <h2>BusinessNameObject </h2>
