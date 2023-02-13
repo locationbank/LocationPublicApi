@@ -112,16 +112,16 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | AddressVisibility   | enum | [AddressVisibility](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressvisibility-)                                                                                                                                       |
-| AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine1   | string |**Required** <br /> First line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
 | AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
 | Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
-| Locality       | string | **Required** Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
+| Locality       | string | **Required** <br /> Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
-| PostalCode     | string | **Required** Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | **Required** 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+| PostalCode     | string | **Required** <br /> Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
+| CountryCode    | string | **Required** <br /> 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
 
                                  
 
@@ -164,13 +164,13 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)   These are the trading hours of the business                                                                          |
-| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                          |
-| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br />   These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  <br /> These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) <br /> These are the trading hours of the business                                                                           |
 
 
   <h2>Day </h2>
