@@ -120,8 +120,8 @@ All endpoints described in this document with the exception of Reporting have th
 
 > | name                             |  type     | data type               | description                                                           |
 > |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
-> | AccountID                         |    | uuid                  | The unique identifier for the Account                             |
-> | LocationID                         |  required  | uuid                  | The unique identifier for the Location                             |
+> | AccountID                         |  required  | uuid                  | The unique identifier for the Account                             |
+> | LocationID                         |    | uuid                  | The unique identifier for the Location                             |
 > | LocationNumber                         |    | string                  | A friendly number used internally to reference the specified Location (for support purposes)                            |
 > | ReferenceCode                         |    | uuid                  | An identifier for the Location specified by the user of the API                          |
 
