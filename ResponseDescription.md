@@ -12,7 +12,7 @@
 | Modified       | string | Time location was modified                                                                               |
 | KeyFields      | object | Dynamic storage of the key fields for the location or custom data which is used by specific applications |
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
-| BusinessStatus | enum | [The Status of the Location](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#BusinessStatus--)                                                                 |
+| BusinessStatus | enum | [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessstatus)                                                                 |
 | Status         | string | Record status                                                                                                                  |
 | BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)  |
