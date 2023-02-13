@@ -147,7 +147,7 @@
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                             
 | Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#day-)             |
-| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#state)   |
+| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#state--)   |
 | additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
 |                            |         |        
 
