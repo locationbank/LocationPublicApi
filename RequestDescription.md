@@ -165,12 +165,12 @@
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
 | HoursOfOperationObject     | string  | [Su](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-) These are the trading hours of the business                                                                           |
-| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
-| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)                                                                            |
+| HoursOfOperationObject     | string  | [Mo](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)   These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [Tu](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                          |
+| HoursOfOperationObject     | string  | [We](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Th](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Fr](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
+| HoursOfOperationObject     | string  | [Sa](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)  These are the trading hours of the business                                                                           |
 
 
   <h2>Day </h2>
@@ -205,7 +205,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Category1          | string |**Required** Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing.                                                                                    |
+| Category1          | string |**Required** <br /> Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing.                                                                                    |
 | Category2          | string | Business Category 2                                                                                                          |
 | Category3          | string | Business Category 3                                                                                                          |
 | Category4          | string | Business Category 4                                                                                                          |
