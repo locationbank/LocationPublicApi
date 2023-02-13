@@ -4,7 +4,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|
-| AccountID      | GUID  | The unique identifier for the Account                                                                    |
+| AccountID      | GUID  | **Required** The unique identifier for the Account                                                                    |
 | LocationID     | GUID  | The unique identifier for the Location (auto-generated)                                                  |
 | LocationNumber | string |**Required** <br /> <br /> A friendly number used internally to reference the specified Location <br /> "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."                 |
 | ReferenceCode  | string | An identifier for the Location specified by the user of the API                                          |
