@@ -111,7 +111,10 @@
   <h2>AddressObject </h2>
   
 | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                  
+|----------------|--------|----------------------------------------------------------------------------------------------------------|  
+
+| AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                                                                                         |
+
 | AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                                                                                         |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
