@@ -3,7 +3,7 @@
 |----------------|--------|----------------------------------------------------------------------------------------------------------|
 | AccountID      | GUID  | The unique identifier for the Account                                                                    |
 | LocationID     | GUID  | The unique identifier for the Location (auto-generated)                                                  |
-| LocationNumber | string |**Required**__ A friendly number used internally to reference the specified Location & "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."                 |
+| LocationNumber | string |**Required** <br /> A friendly number used internally to reference the specified Location & "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."                 |
 | ReferenceCode  | string | An identifier for the Location specified by the user of the API                                          |
 | CreatedBy      | string | String indicating who or what created the Location                                                       |
 | ModifiedBy     | string | String indicating who or what last modified the Location                                                 |
