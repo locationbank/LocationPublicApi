@@ -111,7 +111,7 @@
   <h2>AddressObject </h2>
   
 | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   | AddressVisibility   | enum | [AddressVisibility](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#AddressVisibility-)                                                                                                                                     |
 | AddressLine1   | string |**Required** <br />First line of an address (max length 80 chars).                                                                                                                                         |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
@@ -122,6 +122,15 @@
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'<br /> The state or province where the business is located |
 | PostalCode     | string | **Required**<br /> Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
 | CountryCode    | string | **Required** <br />'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+
+  <h2>AddressVisibility </h2>
+
+
+| Enum         | Type   | Description                                                                                              |
+|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+| LOCATION                  | string  | Represent open/close state on the specific date  [Open=0]                                                       |
+| LOCATION_SERVICE                    | string  | Represent open/close state on the specific date  [Closed=1]                                                |      
+| SERVICE                    | string  | Represent open/close state on the specific date  [Open24Hrs=2]                                           |     
 
 
   <h2>PhoneNumbersObject </h2>
