@@ -1,5 +1,5 @@
 <h2>Location Bank Public API </h2>
-Represents a brief location model. Used to return an essensial data when a list of locations is requested
+    Represents a brief location model. Used to return an essensial data when a list of locations is requested
 
 
 | Fields         | Type   | Description                                                                                              |
