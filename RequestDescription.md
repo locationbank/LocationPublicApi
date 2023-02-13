@@ -11,13 +11,13 @@
 | Modified       | string | Time location was modified                                                                               |
 | KeyFields      | object |**Required**<br /> Dynamic storage of the key fields for the location or custom data which is used by specific applications.Keywords must be specific to what the business does e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food |
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointobject) |  
-| BusinessStatus | enum |**Required**<br /> [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessstatus)                                                                 |
+| BusinessStatus | enum |**Required**<br /><br /> [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessstatus)                                                                 |
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#Recordstatus)                                                                                                                  |
-| BusinessName   | Object |**Required** <br />[BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
+| BusinessName   | Object |**Required** <br /><br /> [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
-| PrimaryAddress | Object |**Required**<br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-) <br />Location Address:A business that serves customers only at their business address. Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. <br />If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.<br />For example, a dine-in restaurant that also delivers food. Service Area Only:Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address.<br /> For example, businesses like cleaning services or plumbers. Service-area businesses can only create one profile for the metropolitan area that they serve.  |
+| PrimaryAddress | Object |**Required**<br /><br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-) <br />Location Address:A business that serves customers only at their business address. Location Address & Service Area:A business that serves customers at their business address, but also directly visits or delivers to customers. <br />If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.<br /> For example, a dine-in restaurant that also delivers food. Service Area Only:Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address.<br /> For example, businesses like cleaning services or plumbers. Service-area businesses can only create one profile for the metropolitan area that they serve.  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
-| WebsiteURL          | string |**Required**<br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website  |
+| WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject-)      | 
 | HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--)                                                        |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
@@ -31,7 +31,7 @@
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
 | Services                  | string |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
-| Brands                    | string |**Required** <br /> A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
+| Brands                    | string |**Required** <br /><br /> A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
 | YearFounded               | string | The year the Location was founded (must be four digits; e.g. 1992)                                                                                                |
 | ProfessionalAssociations  | string | A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location |
 | Tagline                   | string | A Tagline or slogan for the Location.                                                                                                                             |
@@ -45,8 +45,8 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#type)                                                                   |
-| Latitude         | number |**Required** <br />'Latitude of the Location represented by a high precision decimal number' <br /> Latitude  coordinate system by means of which the position or location of any place on Earth's surface can be determined and described          |
-| Longitude        | number | **Required**<br /> 'Longitude of the Location represented by a high precision decimal number' <br />  longitude coordinate system by means of which the position or location of any place on Earth's surface can be determined and described         |
+| Latitude         | number |**Required** <br /><br /> 'Latitude of the Location represented by a high precision decimal number' <br /> Latitude  coordinate system by means of which the position or location of any place on Earth's surface can be determined and described          |
+| Longitude        | number | **Required**<br /><br />  'Longitude of the Location represented by a high precision decimal number' <br />  longitude coordinate system by means of which the position or location of any place on Earth's surface can be determined and described         |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#verificationtype)   
 
 
@@ -94,7 +94,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Name           | string |**Required** <br />A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
+| Name           | string |**Required** <br /><br /> A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
 | LongName       | string | A long Business Name for the Location (max length 80 chars).                                                                    |
 | Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnamelocale--) 
 
@@ -103,8 +103,8 @@
   
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Description         | string |**Required** <br />A description of the Business for the Location                                 |
-| ShortDescription    | string |**Required**<br /> A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars).<br /> "Enter a short description (max 160. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better.<br /> Do not input any contact data like Email, Phone or Website."                       |
+| Description         | string |**Required** <br /><br /> A description of the Business for the Location                                 |
+| ShortDescription    | string |**Required**<br /><br />  A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars).<br /> "Enter a short description (max 160. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better.<br /> Do not input any contact data like Email, Phone or Website."                       |
 | longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars).<br />This field is needed to submit data to Yalwa (max length 200 chars).<br />"Enter a Long description (max 750. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better. Do not input any contact data like Email, Phone or Website."   |
 
 <h2>AddressObject </h2>
@@ -112,16 +112,16 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | AddressVisibility   | enum | [AddressVisibility](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressvisibility-)                                                                                                                                       |
-| AddressLine1   | string |**Required** <br /> First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine1   | string |**Required** <br /><br /> First line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
 | AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
 | Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
-| Locality       | string | **Required** <br /> Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
+| Locality       | string | **Required** <br /><br /> Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
-| PostalCode     | string | **Required** <br /> Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | **Required** <br /> 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+| PostalCode     | string | **Required** <br /><br />  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
+| CountryCode    | string | **Required** <br /><br />   'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
 
                                  
 
@@ -138,7 +138,7 @@
   
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-|  PrimaryPhoneNumber | string |**Required** <br />The Primary Phone Number for the Location. "The best number for customers to use to reach your business. This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."                                                                                      |
+|  PrimaryPhoneNumber | string |**Required** <br /><br /> The Primary Phone Number for the Location. "The best number for customers to use to reach your business. This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."                                                                                      |
 | Landline            | string | The Landline Phone Number for the Location                                                                                     |
 | Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
 | Fax                 | string | The Fax Number for the Location                                                                                                |
@@ -205,7 +205,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Category1          | string |**Required** <br /> Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing.                                                                                    |
+| Category1          | string |**Required** <br /><br />  Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing.                                                                                    |
 | Category2          | string | Business Category 2                                                                                                          |
 | Category3          | string | Business Category 3                                                                                                          |
 | Category4          | string | Business Category 4                                                                                                          |
