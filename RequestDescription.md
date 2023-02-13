@@ -9,18 +9,18 @@
 | ModifiedBy     | string | String indicating who or what last modified the Location                                                 |
 | Created        | string | 'Time, location was created'                                                                             |
 | Modified       | string | Time location was modified                                                                               |
-| KeyFields      | object | Dynamic storage of the key fields for the location or custom data which is used by specific applications |
+| KeyFields      | object |**Required** Dynamic storage of the key fields for the location or custom data which is used by specific applications |
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#displaypointobject) |  
 | BusinessStatus | enum |**Required** [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessstatus)                                                                 |
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#Recordstatus)                                                                                                                  |
-| BusinessName   | Object | [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject-) |  
+| BusinessName   | Object |**Required** [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnameobject-) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessdescriptionobject-)  |
-| PrimaryAddress | Object | [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
+| PrimaryAddress | Object |**Required** [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#phonenumbersobject-)  |
-| WebsiteURL          | string | The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
+| WebsiteURL          | string |**Required** The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char)  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject-)      | 
-| HoursOfOperationStructured | Object  | [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
-| businessCategories | Object | [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businesscategoriesobject--)                                                                                                     
+| HoursOfOperationStructured | Object  |**Required** [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
+| businessCategories | Object |**Required** [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
 | Amenities          | string | A comma separated list of Amenities available at the Location (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
@@ -31,7 +31,7 @@
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
 | Services                  | string |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
-| Brands                    | string |  A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
+| Brands                    | string |**Required**  A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
 | YearFounded               | string | The year the Location was founded (must be four digits; e.g. 1992)                                                                                                |
 | ProfessionalAssociations  | string | A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location |
 | Tagline                   | string | A Tagline or slogan for the Location.                                                                                                                             |
@@ -45,8 +45,8 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type)                                                                   |
-| Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
-| Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
+| Latitude         | number |**Required** 'Latitude of the Location represented by a high precision decimal number'            |
+| Longitude        | number | **Required** 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#verificationtype)   
 
 
@@ -94,7 +94,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Name           | string | A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
+| Name           | string |**Required** A standard length Business Name for the Location; This field is needed to submit data to Acxiom and Bing (max length 30 chars) |
 | LongName       | string | A long Business Name for the Location (max length 80 chars)                                                                    |
 | Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businessnamelocale--) 
 
@@ -103,8 +103,8 @@
   
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Description         | string | A description of the Business for the Location; This field is needed to submit data to Yalwa (max length 200 chars)                                  |
-| ShortDescription    | string | A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars)                       |
+| Description         | string |**Required** A description of the Business for the Location; This field is needed to submit data to Yalwa (max length 200 chars)                                  |
+| ShortDescription    | string |**Required** A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars)                       |
 | longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars) |
 
 
@@ -112,23 +112,23 @@
   
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| AddressLine1   | string | First line of an address (max length 80 chars).                                                                                                                                           |
+| AddressLine1   | string |**Required** First line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
 | AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
 | Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
-| Locality       | string |  Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
+| Locality       | string | **Required** Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
 | Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' |
-| PostalCode     | string |  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
+| PostalCode     | string | **Required** Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
+| CountryCode    | string | **Required** 'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location (e.g. US, CA, FR, DE, etc.)                                                                            |
 
 
   <h2>PhoneNumbersObject </h2>
   
   | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|    
-|  PrimaryPhoneNumber | string | The Primary Phone Number for the Location                                                                                      |
+|  PrimaryPhoneNumber | string |**Required** The Primary Phone Number for the Location                                                                                      |
 | Landline            | string | The Landline Phone Number for the Location                                                                                     |
 | Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
 | Fax                 | string | The Fax Number for the Location                                                                                                |
@@ -195,7 +195,7 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Category1          | string | Business Category 1                                                                                                          |
+| Category1          | string |**Required** Business Category 1                                                                                                          |
 | Category2          | string | Business Category 2                                                                                                          |
 | Category3          | string | Business Category 3                                                                                                          |
 | Category4          | string | Business Category 4                                                                                                          |
