@@ -56,7 +56,7 @@ All endpoints described in this document with the exception of Reporting have th
                       
  
   
-[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
+[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
 
 </details> 
 
@@ -96,7 +96,7 @@ All endpoints described in this document with the exception of Reporting have th
                       
  
   
-[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
+[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
 
 </details> 
 
@@ -136,7 +136,7 @@ All endpoints described in this document with the exception of Reporting have th
                       
  
   
-[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
+[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
 
 </details> 
 
@@ -175,7 +175,7 @@ All endpoints described in this document with the exception of Reporting have th
                       
  
   
-[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md)
+[Response Description](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md)
 
 </details> 
 
