@@ -113,7 +113,13 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | AddressLine1   | string |**Required** First line of an address (max length 80 chars).  Location Address:
-A business that serves customers only at their business address.                                                                                                                                         |
+A business that serves customers only at their business address. Location Address & Service Area:
+A business that serves customers at their business address, but also directly visits or delivers to customers. If your business doesn’t have permanent on-site signage, it's not eligible as a storefront and should be listed as a service-area business.
+For example, a dine-in restaurant that also delivers food. 
+Service Area Only:
+Service-area business: A business that visits or delivers to customers directly, but doesn’t serve customers at their business address. 
+For example, businesses like cleaning services or plumbers. 
+Service-area businesses can only create one profile for the metropolitan area that they serve.                                                                                                                                        |
 | AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
 | AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
 | AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
