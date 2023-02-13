@@ -13,7 +13,9 @@
 | DisplayPoint     | Object | [DisplayPointObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointobject) |  
 | BusinessStatus | enum |**Required** [The Status of the Business](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessstatus)                                                                 |
 | Status         | enum | [Record status](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#Recordstatus)                                                                                                                  |
-| BusinessName   | Object |**Required** [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
+| BusinessName   | Object |**Required** [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) "A business name is required for each location.
+ 
+The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters."|  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
 | PrimaryAddress | Object |**Required** [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
