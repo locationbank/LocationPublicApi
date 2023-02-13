@@ -45,7 +45,7 @@
 
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Type             | enum   | - [Type](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type)                                                                   |
+| Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#type)                                                                   |
 | Latitude         | number | 'Latitude of the Location represented by a high precision decimal number'            |
 | Longitude        | number | 'Longitude of the Location represented by a high precision decimal number'           |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#verificationtype)   
