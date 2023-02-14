@@ -34,12 +34,7 @@
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
 | Services                  | string |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
 | Brands                    | string |**Required** <br /><br /> A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
-| YearFounded               | string | Numeric only, but they must follow the required format:
- "YYYY-MM-DD"  
- Variables are as follows:
- YYYY = 4 digit numeric representation of the year
- MM = 2 digit numeric representation of the month
- DD = 2 digit numeric representation of the day                                                                                               |
+| YearFounded               | string | Numeric only, but they must follow the required format: <br/>"YYYY-MM-DD"  Variables are as follows:<br/> YYYY = 4 digit numeric representation of the year <br/>MM = 2 digit numeric representation of the month <br/>DD = 2 digit numeric representation of the day                                                                                               |
 | ProfessionalAssociations  | string | A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location |
 | Tagline                   | string | A Tagline or slogan for the Location.                                                                                                                             |
 | NumberEmployees           | string | The number of employees at the Location (max length 5 chars)                                                                                                      |
