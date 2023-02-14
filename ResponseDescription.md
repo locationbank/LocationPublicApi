@@ -24,13 +24,12 @@
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#mediaurlsobject-)      | 
 | HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#hoursofoperationobject--)                                                        |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#businesscategoriesobject--)                                                                                                     
-| Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
 | Amenities          | string | A comma separated list of Amenities available at the Location <br /> (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
 | PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/ResponseDescription.md#photourlobject--)                                                                                                           |                                          
-| KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location.<br /><br />Keywords must be specific to what the business does <br />e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food                                  |
+| KeywordsSpecialties       | string | A Use ; to have multiple Keywords (Up to 5 seperate keywords max) list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location.<br /><br />Keywords must be specific to what the business does <br />e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food                                  |
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
 | Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
 | Services                  | string |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
@@ -40,8 +39,7 @@
 | Tagline                   | string | A Tagline or slogan for the Location.                                                                                                                             |
 | NumberEmployees           | string | The number of employees at the Location (max length 5 chars)                                                                                                      |
 | AreasServed               | string | A comma separated list of Areas served by the Location (e.g. Downtown, Uptown, etc.)                                                                              |
-| Languages                 | string | A comma separated list of Languages spoken at the Location (see documentation for list of valid Languages and input format)                                       |
-| AlternateOrCorporateName  | string | ''                                                                                                                                                                |
+ | AlternateOrCorporateName  | string | ''                                                                                                                                                                |
 
 <h2>DisplayPointObject</h2>
 
@@ -98,6 +96,8 @@
 | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
 | Name           | string |**Required** <br /><br /> A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br /><br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
+| ShortName       | string | A Short Business Name for the Location (max length 80 chars).                                                                    |
+| LocationDescriptor       | string | A description of the position of a particular location relative to another physical site.                                                                   |
 | LongName       | string | A long Business Name for the Location (max length 80 chars).                                                                    |
 | Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/BusinessNameLocale.md) 
 
@@ -190,8 +190,8 @@
   
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| StartTime                  | string  | Start time                                                                                            |
-| EndTime                    | string  | End time                                                                                              |      
+| StartTime                  | string  | Start time HH:MM Hours in 24hr format                                                                                          |
+| EndTime                    | string  | End time HH:MM Hours in 24hr format                                                                                              |      
 
 
   <h2>state  </h2>
