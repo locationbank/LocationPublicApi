@@ -22,7 +22,7 @@
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website |  WebsiteUrl  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject--)      | 
-| HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--)                                                        |
+| HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--) |RegularHours                                                       |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
 | Amenities          | string | A comma separated list of Amenities available at the Location <br /> (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
@@ -30,12 +30,12 @@
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#contactpersonobject--)                                                                                                          |
 | EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
 | PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#photourlobject--)                                                                                                           |                                          
-| KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location.<br /><br />Keywords must be specific to what the business does <br />e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food                                  |
+| KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location.<br /><br />Keywords must be specific to what the business does <br />e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food    | KeyWords                              |
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
-| Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location                 |
+| Products                  | string | A comma separated list of Products available at the Location which are used by data providers to refine search listing relevancy for the Location    | Products             |
 | Services                  | string |  comma separated list of Services available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
 | Brands                    | string |**Required** <br /><br /> A comma separated list of Brands available at the Location which are used by data providers to refine search listing relevancy for the Location                  |
-| YearFounded               | string | The year the Location was founded (must be four digits; e.g. 1992)                                                                                                |
+| YearFounded               | string | The year the Location was founded (must be four digits; e.g. 1992) | Founded                                                                                               |
 | ProfessionalAssociations  | string | A comma separated list of Professional Associations relevant to the Location which are used by data providers to refine search listing relevancy for the Location |
 | Tagline                   | string | A Tagline or slogan for the Location.                                                                                                                             |
 | NumberEmployees           | string | The number of employees at the Location (max length 5 chars)                                                                                                      |
@@ -206,29 +206,29 @@
 
  <h2>BusinessCategoriesObject  </h2>
   
- | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
-| Category1          | string |**Required** <br /><br />  Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing.                                                                                    |
-| Category2          | string | Business Category 2                                                                                                          |
-| Category3          | string | Business Category 3                                                                                                          |
-| Category4          | string | Business Category 4                                                                                                          |
-| Category5          | string | Business Category 5                                                                                                          |
-| Category6          | string | Business Category 6                                                                                                          |
-| Category7          | string | Business Category 7                                                                                                          |
-| Category8          | string | Business Category 8                                                                                                          |
-| Category9          | string | Business Category 9                                                                                                          |
+ | Fields         | Type   | Description   | Location Bank Name                                                                                          |
+|----------------|--------|----------------|-----------------------------------------------------------------------------------------|                                                                                            
+| Category1          | string |**Required** <br /><br />  Business Category 1 You can select 1 primary category (the most weight in the Google algorithm) and 9 secondary categories for your Google My Business listing. | GmbPrimaryCategoryName                                                                                   |
+| Category2          | string | Business Category 2   |  GmbAdditionalCategoryName1                                                                                                       |
+| Category3          | string | Business Category 3  |  GmbAdditionalCategoryName2                                                                                                        |
+| Category4          | string | Business Category 4     | GmbAdditionalCategoryName3                                                                                                     |
+| Category5          | string | Business Category 5       | GmbAdditionalCategoryName4                                                                                                   |
+| Category6          | string | Business Category 6     | GmbAdditionalCategoryName5                                                                                                     |
+| Category7          | string | Business Category 7     |  GmbAdditionalCategoryName6                                                                                                     |
+| Category8          | string | Business Category 8      | GmbAdditionalCategoryName7                                                                                                    |
+| Category9          | string | Business Category 9      | GmbAdditionalCategoryName8                                                                                                    |
 
 
  <h2>ContactPersonObject  </h2>
   
- | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                            
+ | Fields         | Type   | Description  | Location Bank  Name                                                                                             |
+|----------------|--------|---------------|------------------------------------------------------------------------------------------|                                                                                            
 | FullName     | string | The full name of the Contact Person                                                           |
 | FirstName    | string | The First Name of the Contact Person (max length 15 chars)                                    |
 | MiddleName   | string | The Middle Name of the Contact Person                                                         |
 | LastName     | string | The Last Name of the Contact Person (max length 20 chars)                                     |
 | Title        | string | Title (e.g. Regional Sales Manager, Customer Support Technician, etc.) (max length 256 chars) |
-| EmailAddress | string | Contact Email address (must be a valid email address)                                         |
+| EmailAddress | string | Contact Email address (must be a valid email address) | Email                                         |
 
 
  <h2>PhotoURLObject  </h2>
