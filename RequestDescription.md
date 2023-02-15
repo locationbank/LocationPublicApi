@@ -19,9 +19,9 @@
 | BusinessName   | Object |**Required** <br /><br /> [BusinessNameObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessnameobject-) |  
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
 | PrimaryAddress | Object |**Required**<br /><br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-)  |
-| phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
+| PhoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
 | WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website |  WebsiteUrl  |
-| mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject--)      | 
+| MediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject--)      | 
 | HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--) |RegularHours                                                       |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
 | Chain              | string | The name of the franchise or chain the Location belongs to                                                                   |
@@ -181,8 +181,8 @@
  | Fields         | Type   | Description                                                                                              |
 |----------------|--------|----------------------------------------------------------------------------------------------------------|                                                                                             
 | Ranges                     | Array   | [TimeRange](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#day-)             |
-| state                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#state--)   |
-| additionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
+| State                      | Enum  | [State](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#state--)   |
+| AdditionalInfo             | string  | Any additional comments - open by appointment, short hours during holidays etc                        |
 |                            |         |        
 
 
