@@ -95,19 +95,19 @@
 
 <h2>BusinessNameObject </h2>
 
-| Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Name           | string |**Required** <br /><br /> A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br /><br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . |
+| Fields         | Type   | Description                | Location Bank Name                                                                              |
+|----------------|--------|----------------------------|-----------------------------------------------------------------------------|                                   
+| Name           | string |**Required** <br /><br /> A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br /><br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . | LocationName|
 | LongName       | string | A long Business Name for the Location (max length 80 chars).                                                                    |
 | Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/BusinessNameLocale.md) 
 
 
   <h2>BusinessDescriptionObject </h2>
   
-| Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
-| Description         | string |**Required** <br /><br /> A description of the Business for the Location                                 |
-| ShortDescription    | string |**Required**<br /><br />  A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars).<br /> "Enter a short description (max 160. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better.<br /><br /> Do not input any contact data like Email, Phone or Website."                       |
+| Fields         | Type   | Description           | Location Bank Name                                                                                   |
+|----------------|--------|-----------------------|-----------------------------------------------------------------------------------|                                   
+| Description         | string |**Required** <br /><br /> A description of the Business for the Location       |Description                          |
+| ShortDescription    | string |**Required**<br /><br />  A short description of the Business for the Location; This field is needed to submit data to Foursquare (max length 160 chars).<br /> "Enter a short description (max 160. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better.<br /><br /> Do not input any contact data like Email, Phone or Website."                     |ShortDescription  |
 | longDescription     | string | A long description of the Business for the Location; This field is needed to submit data to Superpages (min length 250 chars; max length 4000 chars).<br /><br />This field is needed to submit data to Yalwa (max length 200 chars).<br /><br />"Enter a Long description (max 750. characters) of the location or comapnay.Content: The description could be about your company history uniquness and products or services so that customers can get to know you better. <br /><br />Do not input any contact data like Email, Phone or Website."   |
 
 <h2>AddressObject </h2>
