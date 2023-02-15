@@ -2,8 +2,8 @@
    <h3> Represents a brief location model. Used to return an essensial data when a list of locations is requested </h3>
 
 
-| Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|
+| Fields         | Type   | Description    | Location Bank Name                                                                                          |
+|----------------|--------|----------------|-----------------------------------------------------------------------------------------|
 | AccountID      | GUID  | **Required**  <br /> <br /> The unique identifier for the Account                                                                    |
 | LocationID     | GUID  | The unique identifier for the Location (auto-generated)                                                  |
 | LocationNumber | string |**Required** <br /> <br /> A friendly number used internally to reference the specified Location <br /> "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."                 |
