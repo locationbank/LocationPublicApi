@@ -5,9 +5,9 @@
 | Fields         | Type   | Description    | Location Bank Name                                                                                          |
 |----------------|--------|----------------|-----------------------------------------------------------------------------------------|
 | AccountID      | GUID  | **Required**  <br /> <br /> The unique identifier for the Account             | ClientId                                                       |
-| LocationID     | GUID  | The unique identifier for the Location (auto-generated)                                                  |
-| LocationNumber | string |**Required** <br /> <br /> A friendly number used internally to reference the specified Location <br /> "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."                 |
-| ReferenceCode  | string | An identifier for the Location specified by the user of the API                                          |
+| LocationID     | GUID  | The unique identifier for the Location (auto-generated)         |Id                                         |
+| LocationNumber | string |**Required** <br /> <br /> A friendly number used internally to reference the specified Location <br /> "A unique ID that you assign to each of your locations to ensure that changes are applied accurately in your account. This value will not be publicly visible anywhere.Generally provided by the client."  | StoreCode               |
+| ReferenceCode  | string | An identifier for the Location specified by the user of the API     | PublicAPIReferenceCode                                     |
 | CreatedBy      | string | String indicating who or what created the Location                                                       |
 | ModifiedBy     | string | String indicating who or what last modified the Location                                                 |
 | Created        | string | 'Time, location was created'                                                                             |
@@ -45,11 +45,11 @@
 
 <h2>DisplayPointObject</h2>
 
-| Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Fields         | Type   | Description          | Location Bank Name                                                                                    |
+|----------------|--------|----------------------|-----------------------------------------------------------------------------------|                                   
 | Type             | enum   | - [DisplayPointType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#displaypointtype)                                                                   |
-| Latitude         | number |**Required** <br /><br /> 'Latitude of the Location represented by a high precision decimal number' <br /> Latitude  coordinate system by means of which the position or location of any place on Earth's surface can be determined and described          |
-| Longitude        | number | **Required**<br /><br />  'Longitude of the Location represented by a high precision decimal number' <br />  longitude coordinate system by means of which the position or location of any place on Earth's surface can be determined and described         |
+| Latitude         | number |**Required** <br /><br /> 'Latitude of the Location represented by a high precision decimal number' <br /> Latitude  coordinate system by means of which the position or location of any place on Earth's surface can be determined and described    |Latitude      |
+| Longitude        | number | **Required**<br /><br />  'Longitude of the Location represented by a high precision decimal number' <br />  longitude coordinate system by means of which the position or location of any place on Earth's surface can be determined and described     |Longitude    |
 | VerificationType | enum   | -[VerificationType](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#verificationtype)   
 
 
