@@ -20,7 +20,7 @@
 | BusinessDescription | Object | [BusinessDescriptionObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businessdescriptionobject-)  |
 | PrimaryAddress | Object |**Required**<br /><br /> [AddressObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressobject-)  |
 | phoneNumbers        | Object | [PhoneNumbersObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#phonenumbersobject-)  |
-| WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website  |
+| WebsiteURL          | string |**Required**<br /><br /> The Website for the Location; Must be a valid URL with only sub, main, and top-level domain information (max length 40 char).Business Website |  WebsiteUrl  |
 | mediaURLs           | Object | [MediaURLsObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#mediaurlsobject-)      | 
 | HoursOfOperationStructured | Object  |**Required**<br /> [HoursOfOperationObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#hoursofoperationobject--)                                                        |
 | businessCategories | Object |**Required**<br /> [BusinessCategoriesObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#businesscategoriesobject--)                                                                                                     
@@ -139,13 +139,13 @@
 
   <h2>PhoneNumbersObject </h2>
   
-  | Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|    
-|  PrimaryPhoneNumber | string |**Required** <br /><br /> The Primary Phone Number for the Location. "The best number for customers to use to reach your business. <br /><br /> This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."                                                                                      |
-| Landline            | string | The Landline Phone Number for the Location                                                                                     |
-| Mobile              | string | The Mobile Phone Number for the Location                                                                                       |
-| Fax                 | string | The Fax Number for the Location                                                                                                |
-| TollFree            | string | The Toll-Free Phone Number for the Location                                                                                    |
+  | Fields         | Type   | Description  | Location Bank Name                                                                                            |
+|----------------|--------|----------------|-----------------------------------------------------------------------------------------|    
+|  PrimaryPhoneNumber | string |**Required** <br /><br /> The Primary Phone Number for the Location. "The best number for customers to use to reach your business. <br /><br /> This phone number may be for a mobile device or landline (no fax numbers). Provide a phone number that connects to your location as directly as possible."          | PrimaryPhone                                                                            |
+| Landline            | string | The Landline Phone Number for the Location | AdditionalPhone1                                                                                    |
+| Mobile              | string | The Mobile Phone Number for the Location     | AdditionalPhone2                                                                                  |
+| Fax                 | string | The Fax Number for the Location        | AdditionalPhone3                                                                                        |
+| TollFree            | string | The Toll-Free Phone Number for the Location       | AdditionalPhone4                                                                             |
 
 
   <h2>MediaURLsObject  </h2>
