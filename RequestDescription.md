@@ -112,19 +112,19 @@
 
 <h2>AddressObject </h2>
   
-| Fields         | Type   | Description                                                                                              |
-|----------------|--------|----------------------------------------------------------------------------------------------------------|                                   
+| Fields         | Type   | Description      | Location Bank Name                                                                                        |
+|----------------|--------|------------------|---------------------------------------------------------------------------------------|                                   
 | AddressVisibility   | enum | [AddressVisibility](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#addressvisibility-)                                                                                                                                       |
-| AddressLine1   | string |**Required** <br /><br /> First line of an address (max length 80 chars).                                                                                                                                           |
-| AddressLine2   | string | econd line of an address (max length 80 chars).                                                                                                                                           |
-| AddressLine3   | string | Third line of an address (max length 80 chars)                                                                                                                                            |
-| AddressLine4   | string | Fourth line of an address (max length 80 chars)                                                                                                                                           |
-| AddressLine5   | string | Fifth line of an address (max length 80 chars)                                                                                                                                            |
-| Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)                                                                        |
-| Locality       | string | **Required** <br /><br /> Locality generally represents a City or Town (max length 28 chars)                                                                                                                       |
-| Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated' |
-| PostalCode     | string | **Required** <br /><br />  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)'                   |
-| CountryCode    | string | **Required** <br /><br />   'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location <br /> (e.g. US, CA, FR, DE, etc.)                                                                            |
+| AddressLine1   | string |**Required** <br /><br /> First line of an address (max length 80 chars).      | AddressLine1                                                                                                                                     |
+| AddressLine2   | string | econd line of an address (max length 80 chars).          | AddressLine2                                                                                                                                 |
+| AddressLine3   | string | Third line of an address (max length 80 chars)                | AddressLine3                                                                                                                            |
+| AddressLine4   | string | Fourth line of an address (max length 80 chars)        | AddressLine4                                                                                                                                    |
+| AddressLine5   | string | Fifth line of an address (max length 80 chars)       |  | AddressLine5                                                                                                                                     |
+| Neighborhood   | string |  Neighborhood represents an official sub-locality - typically an area within a town or city (max length 200 chars)  | SubLocality                                                                      |
+| Locality       | string | **Required** <br /><br /> Locality generally represents a City or Town (max length 28 chars)        | Locality                                                                                                               |
+| Region         | string | 'A Region represents the State or Province; depending on the specified CountryCode, this field may be required and the input format validated' |  AdministrativeArea |
+| PostalCode     | string | **Required** <br /><br />  Postal Code or Zip Code; depending on the specified CountryCode, this field may be required and the input format validated (see documentation for validation details)' | PostalCode                 |
+| CountryCode    | string | **Required** <br /><br />   'Two letter ISO 3166-1 alpha-2 country code representing the Country of a Location <br /> (e.g. US, CA, FR, DE, etc.)       | Country                                                                     |
 
                                  
 
