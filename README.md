@@ -179,5 +179,35 @@ All endpoints described in this document with the exception of Reporting have th
 
 </details> 
 
+---
+
+<h1>6.Publish All Locations</h1>
+<details> 
+  <summary><strong><h2>GET / (Http EndPoint:  /publish)</h2>
+</strong>
+</summary>
+  
+  ##### Headers Parameters
+
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | Ocp-Apim-Subscription-Key        |  required  | string                  | Passed into **header** for Authorization                                 |
+> | Content-Type                      |  required  | application/json                                      |
+
+  ##### QueryString Parameters
+
+> | name                             |  type     | data type               | description                                                           |
+> |----------------------------------|-----------|-------------------------|-----------------------------------------------------------------------|
+> | AccountID                         |  required  | uuid                  | The unique identifier for the Account                             |
+ 
+##### Responses
+
+> | http code     | content-type                      | response                                                            |
+> |---------------|-----------------------------------|---------------------------------------------------------------------|
+> | `200`         | `text/plain;charset=UTF-8`        | [Response Json Body] Boolean 
+
+      
+
+</details> 
 
 
