@@ -28,7 +28,7 @@
 | Amenities          | string | A comma separated list of Amenities available at the Location <br /> (e.g.Parking, Free Parking, Parking Garage, Wheelchair Access) |
 | PaymentMethods     | string | A comma separated list of Payment Methods for the Location                                                                   |
 | PrimaryContact     | Object | [ContactPersonObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#contactpersonobject--)                                                                                                          |
-| EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)                              |
+| EmailAddress       | string | The primary email address for the Location; Must be a valid email address (max length 60 chars)     | Email                         |
 | PhotoURLs                 | Array  | [PhotoObject](https://github.com/locationbank/LocationPublicApi/blob/main/RequestDescription.md#photourlobject--)                                                                                                           |                                          
 | KeywordsSpecialties       | string | A comma separated list of Keywords and/or Specialties used by data providers to refine search listing relevancy for the Location.<br /><br />Keywords must be specific to what the business does <br />e.g. Chicken Restaurant ; Burger Restaurant NOT Menu, Food    | KeyWords                              |
 | CredentialsCertifications | string | A comma separated list of Credentials and/or Certifications used by data providers to refine search listing relevancy for the Location (max length 200 chars)     |
