@@ -99,7 +99,10 @@
 |----------------|--------|----------------------------|-----------------------------------------------------------------------------|                                   
 | Name           | string |**Required** <br /><br /> A standard length Business Name for the Location. This field is needed to submit data to Acxiom and Bing (max length 30 chars)."A business name is required for each location.<br /><br />The name of your business that will appear on your listing. Represent your business exactly as it appears in the offline world. Your business name must be no longer than 80 characters." . | LocationName|
 | LongName       | string | A long Business Name for the Location (max length 80 chars).                                                                    |
-| Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/BusinessNameLocale.md) 
+| Locale         | Enum | [Primary language](https://github.com/locationbank/LocationPublicApi/blob/main/BusinessNameLocale.md) |
+| ShortName       | string | A Short Business Name for the Location (max length 80 chars).                                                                    |
+| LocationDescriptor       | string | A description of the position of a particular location relative to another physical site.                                                                   |
+
 
 
   <h2>BusinessDescriptionObject </h2>

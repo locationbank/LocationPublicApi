@@ -27,7 +27,9 @@
             "status": "Active",
             "businessName": {
                 "name": "business Name 1",
-                "longName": "business Name 1"
+                "longName": "business Name 1",
+                "shortName":"business Name 1",
+                "locationDescriptor": null
             },
             "businessDescription": {
                 "description": "This is a description",
@@ -71,8 +73,8 @@
                 "su": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -81,8 +83,8 @@
                 "mo": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                           "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -91,8 +93,8 @@
                 "tu": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                           "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -101,8 +103,8 @@
                 "we": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -111,8 +113,8 @@
                 "th": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -121,8 +123,8 @@
                 "fr": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -131,8 +133,8 @@
                 "sa": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -205,7 +207,9 @@
             "status": "Active",
             "businessName": {
                 "name": "AB01 - Place",
-                "longName": "AB01 - Place"
+                "longName": "AB01 - Place",
+                "shortName":"AB01 - Place",
+                "locationDescriptor": null
             },
             "businessDescription": {
                 "description": "Need something",
@@ -249,8 +253,8 @@
                 "su": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -259,8 +263,8 @@
                 "mo": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -269,8 +273,8 @@
                 "tu": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -279,8 +283,8 @@
                 "we": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -289,8 +293,8 @@
                 "th": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -299,8 +303,8 @@
                 "fr": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -309,8 +313,8 @@
                 "sa": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00AM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -383,7 +387,9 @@
             "status": "Active",
             "businessName": {
                 "name": "test",
-                "longName": "test"
+                "longName": "test",
+                "shortName":"test",
+                "locationDescriptor": null
             },
             "businessDescription": {
                 "description": null,
@@ -427,8 +433,8 @@
                 "su": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -437,8 +443,8 @@
                 "mo": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -447,8 +453,8 @@
                 "tu": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -457,8 +463,8 @@
                 "we": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -467,8 +473,8 @@
                 "th": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -477,8 +483,8 @@
                 "fr": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -487,8 +493,8 @@
                 "sa": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -561,7 +567,9 @@
             "status": "Active",
             "businessName": {
                 "name": "Location Store 7  demo1",
-                "longName": "Not Set Cape Town Durbanville"
+                "longName": "Not Set Cape Town Durbanville",
+                "shortName":"Cape Town",
+                "locationDescriptor": null
             },
             "businessDescription": {
                 "description": "",
@@ -605,8 +613,8 @@
                 "su": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -615,8 +623,8 @@
                 "mo": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -625,8 +633,8 @@
                 "tu": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                           "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -635,8 +643,8 @@
                 "we": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -645,8 +653,8 @@
                 "th": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -655,8 +663,8 @@
                 "fr": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -665,8 +673,8 @@
                 "sa": {
                     "ranges": [
                         {
-                            "startTime": "09:00AM",
-                            "endTime": "06:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",

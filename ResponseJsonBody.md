@@ -27,7 +27,9 @@
             "status": "Active",
             "businessName": {
                 "name": "test",
-                "longName": "test"
+                "longName": "test",
+                "ShortName": "test",
+                "LocationDescriptor" : "Test"
             },
             "businessDescription": {
                 "description": null,
@@ -71,8 +73,8 @@
                 "su": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -81,8 +83,8 @@
                 "mo": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -91,8 +93,8 @@
                 "tu": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -101,8 +103,8 @@
                 "we": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -111,8 +113,8 @@
                 "th": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -121,8 +123,8 @@
                 "fr": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
@@ -131,8 +133,8 @@
                 "sa": {
                     "ranges": [
                         {
-                            "startTime": "08:00AM",
-                            "endTime": "05:00PM"
+                            "startTime": "08:00",
+                            "endTime": "15:00"
                         }
                     ],
                     "state": "Open",
